@@ -1,0 +1,190 @@
+[MSG] Initialized sensor: IMU
+[MSG] Initialized sensor: Barometer
+[MSG] Initialized sensor: Temperature
+[MSG] Initialized sensor: Battery
+[DATA] t=0 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=0 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=0 ms, sensor=Temperature, status=ok, values=22.00, note=internal temperature
+[DATA] t=0 ms, sensor=Battery, status=ok, values=12.60, note=battery is normal
+[MSG] Flight state changed to: Ready
+[DATA] t=500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=500 ms, sensor=Temperature, status=ok, values=22.02, note=internal temperature
+[DATA] t=500 ms, sensor=Battery, status=ok, values=12.58, note=battery is normal
+[DATA] t=1000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=1000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=1000 ms, sensor=Temperature, status=ok, values=22.05, note=internal temperature
+[DATA] t=1000 ms, sensor=Battery, status=ok, values=12.57, note=battery is normal
+[DATA] t=1500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=1500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=1500 ms, sensor=Temperature, status=ok, values=22.07, note=internal temperature
+[DATA] t=1500 ms, sensor=Battery, status=ok, values=12.55, note=battery is normal
+[DATA] t=2000 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=2000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=2000 ms, sensor=Temperature, status=ok, values=22.10, note=internal temperature
+[DATA] t=2000 ms, sensor=Battery, status=ok, values=12.54, note=battery is normal
+[MSG] Flight state changed to: Launch
+[DATA] t=2500 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=2500 ms, sensor=Barometer, status=ok, values=15.00, note=altitude estimate
+[DATA] t=2500 ms, sensor=Temperature, status=ok, values=22.12, note=internal temperature
+[DATA] t=2500 ms, sensor=Battery, status=ok, values=12.53, note=battery is normal
+[MSG] Flight state changed to: Ascent
+[DATA] t=3000 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=3000 ms, sensor=Barometer, status=ok, values=60.00, note=altitude estimate
+[DATA] t=3000 ms, sensor=Temperature, status=ok, values=22.15, note=internal temperature
+[DATA] t=3000 ms, sensor=Battery, status=ok, values=12.51, note=battery is normal
+[DATA] t=3500 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=3500 ms, sensor=Barometer, status=ok, values=135.00, note=altitude estimate
+[DATA] t=3500 ms, sensor=Temperature, status=ok, values=22.18, note=internal temperature
+[DATA] t=3500 ms, sensor=Battery, status=ok, values=12.49, note=battery is normal
+[DATA] t=4000 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=4000 ms, sensor=Barometer, status=ok, values=240.00, note=altitude estimate
+[DATA] t=4000 ms, sensor=Temperature, status=ok, values=22.20, note=internal temperature
+[DATA] t=4000 ms, sensor=Battery, status=ok, values=12.48, note=battery is normal
+[DATA] t=4500 ms, sensor=IMU, status=ok, values=24.00, 2.00, note=imu frame
+[DATA] t=4500 ms, sensor=Barometer, status=ok, values=375.00, note=altitude estimate
+[DATA] t=4500 ms, sensor=Temperature, status=ok, values=22.23, note=internal temperature
+[DATA] t=4500 ms, sensor=Battery, status=ok, values=12.46, note=battery is normal
+[DATA] t=5000 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=5000 ms, sensor=Barometer, status=ok, values=540.00, note=altitude estimate
+[DATA] t=5000 ms, sensor=Temperature, status=ok, values=22.25, note=internal temperature
+[DATA] t=5000 ms, sensor=Battery, status=ok, values=12.45, note=battery is normal
+[DATA] t=5500 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=5500 ms, sensor=Barometer, status=ok, values=615.00, note=altitude estimate
+[DATA] t=5500 ms, sensor=Temperature, status=ok, values=22.27, note=internal temperature
+[DATA] t=5500 ms, sensor=Battery, status=ok, values=12.44, note=battery is normal
+[DATA] t=6000 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=6000 ms, sensor=Barometer, status=ok, values=680.00, note=altitude estimate
+[DATA] t=6000 ms, sensor=Temperature, status=ok, values=22.30, note=internal temperature
+[DATA] t=6000 ms, sensor=Battery, status=ok, values=12.42, note=battery is normal
+[DATA] t=6500 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=6500 ms, sensor=Barometer, status=ok, values=735.00, note=altitude estimate
+[DATA] t=6500 ms, sensor=Temperature, status=ok, values=22.32, note=internal temperature
+[DATA] t=6500 ms, sensor=Battery, status=ok, values=12.40, note=battery is normal
+[DATA] t=7000 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=7000 ms, sensor=Barometer, status=ok, values=780.00, note=altitude estimate
+[DATA] t=7000 ms, sensor=Temperature, status=ok, values=22.35, note=internal temperature
+[DATA] t=7000 ms, sensor=Battery, status=ok, values=12.39, note=battery is normal
+[DATA] t=7500 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=7500 ms, sensor=Barometer, status=ok, values=815.00, note=altitude estimate
+[DATA] t=7500 ms, sensor=Temperature, status=ok, values=22.38, note=internal temperature
+[DATA] t=7500 ms, sensor=Battery, status=ok, values=12.38, note=battery is normal
+[DATA] t=8000 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=8000 ms, sensor=Barometer, status=ok, values=840.00, note=altitude estimate
+[DATA] t=8000 ms, sensor=Temperature, status=ok, values=22.40, note=internal temperature
+[DATA] t=8000 ms, sensor=Battery, status=ok, values=12.36, note=battery is normal
+[DATA] t=8500 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=8500 ms, sensor=Barometer, status=ok, values=855.00, note=altitude estimate
+[DATA] t=8500 ms, sensor=Temperature, status=ok, values=22.43, note=internal temperature
+[DATA] t=8500 ms, sensor=Battery, status=ok, values=12.34, note=battery is normal
+[DATA] t=9000 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=9000 ms, sensor=Barometer, status=ok, values=860.00, note=altitude estimate
+[DATA] t=9000 ms, sensor=Temperature, status=ok, values=22.45, note=internal temperature
+[DATA] t=9000 ms, sensor=Battery, status=ok, values=12.33, note=battery is normal
+[DATA] t=9500 ms, sensor=IMU, status=ok, values=8.50, 0.80, note=imu frame
+[DATA] t=9500 ms, sensor=Barometer, status=ok, values=855.00, note=altitude estimate
+[DATA] t=9500 ms, sensor=Temperature, status=ok, values=22.48, note=internal temperature
+[DATA] t=9500 ms, sensor=Battery, status=ok, values=12.31, note=battery is normal
+[MSG] Flight state changed to: Apogee
+[DATA] t=10000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=10000 ms, sensor=Barometer, status=ok, values=840.00, note=altitude estimate
+[DATA] t=10000 ms, sensor=Temperature, status=ok, values=22.50, note=internal temperature
+[DATA] t=10000 ms, sensor=Battery, status=ok, values=12.30, note=battery is normal
+[MSG] Flight state changed to: Descent
+[DATA] t=10500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=10500 ms, sensor=Barometer, status=ok, values=787.50, note=altitude estimate
+[DATA] t=10500 ms, sensor=Temperature, status=ok, values=22.52, note=internal temperature
+[DATA] t=10500 ms, sensor=Battery, status=ok, values=12.29, note=battery is normal
+[DATA] t=11000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=11000 ms, sensor=Barometer, status=ok, values=735.00, note=altitude estimate
+[DATA] t=11000 ms, sensor=Temperature, status=ok, values=22.55, note=internal temperature
+[DATA] t=11000 ms, sensor=Battery, status=ok, values=12.27, note=battery is normal
+[DATA] t=11500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=11500 ms, sensor=Barometer, status=ok, values=682.50, note=altitude estimate
+[DATA] t=11500 ms, sensor=Temperature, status=ok, values=22.57, note=internal temperature
+[DATA] t=11500 ms, sensor=Battery, status=ok, values=12.25, note=battery is normal
+[DATA] t=12000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=12000 ms, sensor=Barometer, status=ok, values=630.00, note=altitude estimate
+[DATA] t=12000 ms, sensor=Temperature, status=ok, values=22.60, note=internal temperature
+[DATA] t=12000 ms, sensor=Battery, status=ok, values=12.24, note=battery is normal
+[DATA] t=12500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=12500 ms, sensor=Barometer, status=ok, values=577.50, note=altitude estimate
+[DATA] t=12500 ms, sensor=Temperature, status=ok, values=22.62, note=internal temperature
+[DATA] t=12500 ms, sensor=Battery, status=ok, values=12.22, note=battery is normal
+[DATA] t=13000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=13000 ms, sensor=Barometer, status=ok, values=525.00, note=altitude estimate
+[DATA] t=13000 ms, sensor=Temperature, status=ok, values=22.65, note=internal temperature
+[DATA] t=13000 ms, sensor=Battery, status=ok, values=12.21, note=battery is normal
+[DATA] t=13500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=13500 ms, sensor=Barometer, status=ok, values=472.50, note=altitude estimate
+[DATA] t=13500 ms, sensor=Temperature, status=ok, values=22.68, note=internal temperature
+[DATA] t=13500 ms, sensor=Battery, status=ok, values=12.20, note=battery is normal
+[DATA] t=14000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=14000 ms, sensor=Barometer, status=ok, values=420.00, note=altitude estimate
+[DATA] t=14000 ms, sensor=Temperature, status=ok, values=22.70, note=internal temperature
+[DATA] t=14000 ms, sensor=Battery, status=ok, values=12.18, note=battery is normal
+[DATA] t=14500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=14500 ms, sensor=Barometer, status=ok, values=367.50, note=altitude estimate
+[DATA] t=14500 ms, sensor=Temperature, status=ok, values=22.73, note=internal temperature
+[DATA] t=14500 ms, sensor=Battery, status=ok, values=12.16, note=battery is normal
+[DATA] t=15000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=15000 ms, sensor=Barometer, status=ok, values=315.00, note=altitude estimate
+[DATA] t=15000 ms, sensor=Temperature, status=ok, values=22.75, note=internal temperature
+[DATA] t=15000 ms, sensor=Battery, status=ok, values=12.15, note=battery is normal
+[DATA] t=15500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=15500 ms, sensor=Barometer, status=ok, values=262.50, note=altitude estimate
+[DATA] t=15500 ms, sensor=Temperature, status=ok, values=22.77, note=internal temperature
+[DATA] t=15500 ms, sensor=Battery, status=ok, values=12.13, note=battery is normal
+[DATA] t=16000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=16000 ms, sensor=Barometer, status=ok, values=210.00, note=altitude estimate
+[DATA] t=16000 ms, sensor=Temperature, status=ok, values=22.80, note=internal temperature
+[DATA] t=16000 ms, sensor=Battery, status=ok, values=12.12, note=battery is normal
+[DATA] t=16500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=16500 ms, sensor=Barometer, status=ok, values=157.50, note=altitude estimate
+[DATA] t=16500 ms, sensor=Temperature, status=ok, values=22.82, note=internal temperature
+[DATA] t=16500 ms, sensor=Battery, status=ok, values=12.11, note=battery is normal
+[DATA] t=17000 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=17000 ms, sensor=Barometer, status=ok, values=105.00, note=altitude estimate
+[DATA] t=17000 ms, sensor=Temperature, status=ok, values=22.85, note=internal temperature
+[DATA] t=17000 ms, sensor=Battery, status=ok, values=12.09, note=battery is normal
+[DATA] t=17500 ms, sensor=IMU, status=ok, values=9.40, 0.30, note=imu frame
+[DATA] t=17500 ms, sensor=Barometer, status=ok, values=52.50, note=altitude estimate
+[DATA] t=17500 ms, sensor=Temperature, status=ok, values=22.88, note=internal temperature
+[DATA] t=17500 ms, sensor=Battery, status=ok, values=12.07, note=battery is normal
+[DATA] t=18000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=18000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=18000 ms, sensor=Temperature, status=ok, values=22.90, note=internal temperature
+[DATA] t=18000 ms, sensor=Battery, status=ok, values=12.06, note=battery is normal
+[MSG] Flight state changed to: Landed
+[DATA] t=18500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=18500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=18500 ms, sensor=Temperature, status=ok, values=22.93, note=internal temperature
+[DATA] t=18500 ms, sensor=Battery, status=ok, values=12.04, note=battery is normal
+[DATA] t=19000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=19000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=19000 ms, sensor=Temperature, status=ok, values=22.95, note=internal temperature
+[DATA] t=19000 ms, sensor=Battery, status=ok, values=12.03, note=battery is normal
+[DATA] t=19500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=19500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=19500 ms, sensor=Temperature, status=ok, values=22.98, note=internal temperature
+[DATA] t=19500 ms, sensor=Battery, status=ok, values=12.02, note=battery is normal
+[DATA] t=20000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=20000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=20000 ms, sensor=Temperature, status=ok, values=23.00, note=internal temperature
+[DATA] t=20000 ms, sensor=Battery, status=ok, values=12.00, note=battery is normal
+[DATA] t=20500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=20500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=20500 ms, sensor=Temperature, status=ok, values=23.02, note=internal temperature
+[DATA] t=20500 ms, sensor=Battery, status=ok, values=11.98, note=battery is normal
+[DATA] t=21000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=21000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=21000 ms, sensor=Temperature, status=ok, values=23.05, note=internal temperature
+[DATA] t=21000 ms, sensor=Battery, status=ok, values=11.97, note=battery is normal
+[DATA] t=21500 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=21500 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=21500 ms, sensor=Temperature, status=ok, values=23.07, note=internal temperature
+[DATA] t=21500 ms, sensor=Battery, status=ok, values=11.96, note=battery is normal
+[DATA] t=22000 ms, sensor=IMU, status=ok, values=9.81, 0.00, note=imu frame
+[DATA] t=22000 ms, sensor=Barometer, status=ok, values=0.00, note=altitude estimate
+[DATA] t=22000 ms, sensor=Temperature, status=ok, values=23.10, note=internal temperature
+[DATA] t=22000 ms, sensor=Battery, status=ok, values=11.94, note=battery is normal
