@@ -1,7 +1,0 @@
-build/
-
-*.exe
-*.o
-*.obj
-*.dll
-*.so
