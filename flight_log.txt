@@ -1,0 +1,14 @@
+Flight log started
+t = 0 ms, altitude = 0, az = 9.81, state = Ready
+t = 500 ms, altitude = 0, az = 9.81, state = Ready
+t = 1000 ms, altitude = 0, az = 18, state = Launch
+t = 1500 ms, altitude = 8, az = 17, state = Ascent
+t = 2000 ms, altitude = 35, az = 14, state = Ascent
+t = 2500 ms, altitude = 90, az = 10, state = Ascent
+t = 3000 ms, altitude = 120, az = 9, state = Ascent
+t = 3500 ms, altitude = 118, az = 9, state = Apogee
+t = 4000 ms, altitude = 95, az = 9, state = Descent
+t = 4500 ms, altitude = 50, az = 9, state = Descent
+t = 5000 ms, altitude = 10, az = 9, state = Descent
+t = 5500 ms, altitude = 0, az = 9, state = Landed
+Flight log finished
