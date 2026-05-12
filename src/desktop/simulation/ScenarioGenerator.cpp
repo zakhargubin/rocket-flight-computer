@@ -6,7 +6,7 @@ namespace fc {
         return step_ < maxSteps_;
     }
 
-    TelemetryFrame ScenarioGenerator::next() {
+    ScenarioFrame ScenarioGenerator::next() {
         const std::uint32_t currentStep = step_;
         ++step_;
 

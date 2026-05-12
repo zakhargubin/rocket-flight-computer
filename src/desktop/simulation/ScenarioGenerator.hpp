@@ -1,6 +1,7 @@
 #pragma once
 
 #include "core/data/TelemetryFrame.hpp"
+#include "ScenarioFrame.hpp"
 #include <cstdint>
 
 namespace fc {
@@ -13,7 +14,7 @@ public:
 	ScenarioGenerator() = default;
 
 	bool hasNext() const;
-	TelemetryFrame next();
+	ScenarioFrame next();
 	void reset();
 };
 
