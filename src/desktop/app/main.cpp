@@ -1,12 +1,17 @@
 #include "core/flight/FlightStateMachine.hpp"
+#include "core/services/DataAggregator.hpp"
 #include "desktop/logging/FileLogger.hpp"
+#include "desktop/sensors/MockBarometerSensor.hpp"
+#include "desktop/sensors/MockIMUSensor.hpp"
 #include "desktop/simulation/ScenarioGenerator.hpp"
 
 #include <iostream>
-#include <vector>
 
 int main() {
     fc::ScenarioGenerator generator;
+    fc::MockIMUSensor imu;
+    fc::MockBarometerSensor barometer;
+    fc::DataAggregator aggregator;
     fc::FlightStateMachine machine;
     fc::FileLogger logger;
 
@@ -18,7 +23,16 @@ int main() {
     logger.logMessage("Flight log started");
 
     while (generator.hasNext()) {
-        const fc::TelemetryFrame frame = generator.next();
+        const fc::ScenarioFrame scenarioFrame = generator.next();
+
+        const fc::SensorData imuData = imu.read(scenarioFrame);
+        const fc::SensorData baroData = barometer.read(scenarioFrame);
+
+        aggregator.reset();
+        aggregator.add(imuData);
+        aggregator.add(baroData);
+
+        const fc::TelemetryFrame frame = aggregator.buildFrame();
         const fc::FlightState state = machine.update(frame);
 
         std::cout
@@ -27,6 +41,7 @@ int main() {
             << ", az = " << frame.accelerationZ
             << ", state = " << fc::toString(state)
             << '\n';
+
         logger.logFrame(frame, state);
     }
 
