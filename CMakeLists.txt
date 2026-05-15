@@ -24,6 +24,7 @@ endif()
 
 add_executable(fc_app
     src/desktop/app/main.cpp
+    src/desktop/app/DesktopFlightComputer.cpp
     src/desktop/simulation/ScenarioGenerator.cpp
     src/desktop/logging/FileLogger.cpp
     src/desktop/sensors/MockIMUSensor.cpp
