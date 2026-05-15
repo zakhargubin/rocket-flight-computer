@@ -5,6 +5,11 @@
 namespace fc {
 
     bool DesktopFlightComputer::init() {
+        sensors_.push_back(&imu_);
+        sensors_.push_back(&barometer_);
+        sensors_.push_back(&temperature_);
+        sensors_.push_back(&battery_);
+
         if (!logger_.open("flight_log.txt")) {
             return false;
         }
@@ -17,16 +22,11 @@ namespace fc {
         while (generator_.hasNext()) {
             const ScenarioFrame scenarioFrame = generator_.next();
 
-            const SensorData imuData = imu_.read(scenarioFrame);
-            const SensorData baroData = barometer_.read(scenarioFrame);
-            const SensorData temperatureData = temperature_.read(scenarioFrame);
-            const SensorData batteryData = battery_.read(scenarioFrame);
-
             aggregator_.reset();
-            aggregator_.add(imuData);
-            aggregator_.add(baroData);
-            aggregator_.add(temperatureData);
-            aggregator_.add(batteryData);
+
+            for (const Sensor* sensor : sensors_) {
+                aggregator_.add(sensor->read(scenarioFrame));
+            }
 
             const TelemetryFrame frame = aggregator_.buildFrame();
             const FlightState state = machine_.update(frame);

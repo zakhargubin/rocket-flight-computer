@@ -1,15 +1,14 @@
 #pragma once
 
-#include "core/data/SensorData.hpp"
-#include "desktop/simulation/ScenarioFrame.hpp"
+#include "core/interfaces/Sensor.hpp"
 
 namespace fc {
 
-    class MockIMUSensor {
-    public:
-        MockIMUSensor() = default;
+class MockIMUSensor : public Sensor {
+public:
+    MockIMUSensor() = default;
 
-        SensorData read(const ScenarioFrame& frame) const;
-    };
+    SensorData read(const ScenarioFrame& frame) const override;
+};
 
-} 
+}

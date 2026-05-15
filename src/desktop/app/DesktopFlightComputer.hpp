@@ -1,6 +1,7 @@
 #pragma once
 
 #include "core/flight/FlightStateMachine.hpp"
+#include "core/interfaces/Sensor.hpp"
 #include "core/services/DataAggregator.hpp"
 #include "desktop/logging/FileLogger.hpp"
 #include "desktop/sensors/MockBarometerSensor.hpp"
@@ -9,7 +10,10 @@
 #include "desktop/sensors/MockTemperatureSensor.hpp"
 #include "desktop/simulation/ScenarioGenerator.hpp"
 
+#include <vector>
+
 namespace fc {
+
 class DesktopFlightComputer {
 private:
     ScenarioGenerator generator_{};
@@ -17,6 +21,9 @@ private:
     MockBarometerSensor barometer_{};
     MockTemperatureSensor temperature_{};
     MockBatterySensor battery_{};
+
+    std::vector<Sensor*> sensors_{};
+
     DataAggregator aggregator_{};
     FlightStateMachine machine_{};
     FileLogger logger_{};
@@ -27,4 +34,5 @@ public:
     void run();
 
 };
+
 }
