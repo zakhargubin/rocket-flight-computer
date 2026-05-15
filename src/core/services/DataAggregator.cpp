@@ -19,6 +19,16 @@ namespace fc {
             frame_.altitude = data.value1;
             frame_.altitudeValid = data.valid;
             break;
+
+        case SensorKind::Temperature:
+            frame_.temperature = data.value1;
+            frame_.temperatureValid = data.valid;
+            break;
+
+        case SensorKind::Battery:
+            frame_.batteryVoltage = data.value1;
+            frame_.batteryValid = data.valid;
+            break;
         }
     }
 

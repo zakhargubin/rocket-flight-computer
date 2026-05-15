@@ -4,13 +4,18 @@
 
 namespace fc {
 
-struct TelemetryFrame {
-    std::uint64_t timestampMs; 
-    double altitude {0.0};
-    double accelerationZ {9.81};
+    struct TelemetryFrame {
+        std::uint32_t timestampMs{ 0 };
 
-    bool altitudeValid {false};
-    bool imuValid {false};
-};
+        double altitude{ 0.0 };
+        double accelerationZ{ 9.81 };
+        double temperature{ 0.0 };
+        double batteryVoltage{ 0.0 };
 
-} //namespace fc
+        bool altitudeValid{ false };
+        bool imuValid{ false };
+        bool temperatureValid{ false };
+        bool batteryValid{ false };
+    };
+
+}

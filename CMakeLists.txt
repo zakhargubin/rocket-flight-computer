@@ -28,6 +28,8 @@ add_executable(fc_app
     src/desktop/logging/FileLogger.cpp
     src/desktop/sensors/MockIMUSensor.cpp
     src/desktop/sensors/MockBarometerSensor.cpp
+    src/desktop/sensors/MockTemperatureSensor.cpp
+    src/desktop/sensors/MockBatterySensor.cpp
 )
 
 target_link_libraries(fc_app PRIVATE fc_core)

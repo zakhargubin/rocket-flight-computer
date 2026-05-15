@@ -2,7 +2,9 @@
 #include "core/services/DataAggregator.hpp"
 #include "desktop/logging/FileLogger.hpp"
 #include "desktop/sensors/MockBarometerSensor.hpp"
+#include "desktop/sensors/MockBatterySensor.hpp"
 #include "desktop/sensors/MockIMUSensor.hpp"
+#include "desktop/sensors/MockTemperatureSensor.hpp"
 #include "desktop/simulation/ScenarioGenerator.hpp"
 
 #include <iostream>
@@ -11,6 +13,8 @@ int main() {
     fc::ScenarioGenerator generator;
     fc::MockIMUSensor imu;
     fc::MockBarometerSensor barometer;
+    fc::MockTemperatureSensor temperature;
+    fc::MockBatterySensor battery;
     fc::DataAggregator aggregator;
     fc::FlightStateMachine machine;
     fc::FileLogger logger;
@@ -27,10 +31,14 @@ int main() {
 
         const fc::SensorData imuData = imu.read(scenarioFrame);
         const fc::SensorData baroData = barometer.read(scenarioFrame);
+        const fc::SensorData temperatureData = temperature.read(scenarioFrame);
+        const fc::SensorData batteryData = battery.read(scenarioFrame);
 
         aggregator.reset();
         aggregator.add(imuData);
         aggregator.add(baroData);
+        aggregator.add(temperatureData);
+        aggregator.add(batteryData);
 
         const fc::TelemetryFrame frame = aggregator.buildFrame();
         const fc::FlightState state = machine.update(frame);
@@ -39,6 +47,8 @@ int main() {
             << "t = " << frame.timestampMs << " ms"
             << ", altitude = " << frame.altitude
             << ", az = " << frame.accelerationZ
+            << ", temperature = " << frame.temperature
+            << ", battery = " << frame.batteryVoltage
             << ", state = " << fc::toString(state)
             << '\n';
 

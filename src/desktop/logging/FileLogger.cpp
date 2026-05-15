@@ -20,6 +20,8 @@ void FileLogger::logFrame(const TelemetryFrame& frame, FlightState state) {
         << "t = " << frame.timestampMs << " ms"
         << ", altitude = " << frame.altitude
         << ", az = " << frame.accelerationZ
+        << ", temperature = " << frame.temperature
+        << ", battery = " << frame.batteryVoltage
         << ", state = " << toString(state)
         << '\n';
 }

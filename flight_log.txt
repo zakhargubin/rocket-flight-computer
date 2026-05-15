@@ -1,14 +1,14 @@
 Flight log started
-t = 0 ms, altitude = 0, az = 9.81, state = Ready
-t = 500 ms, altitude = 0, az = 9.81, state = Ready
-t = 1000 ms, altitude = 0, az = 18, state = Launch
-t = 1500 ms, altitude = 8, az = 17, state = Ascent
-t = 2000 ms, altitude = 35, az = 14, state = Ascent
-t = 2500 ms, altitude = 90, az = 10, state = Ascent
-t = 3000 ms, altitude = 120, az = 9, state = Ascent
-t = 3500 ms, altitude = 118, az = 9, state = Apogee
-t = 4000 ms, altitude = 95, az = 9, state = Descent
-t = 4500 ms, altitude = 50, az = 9, state = Descent
-t = 5000 ms, altitude = 10, az = 9, state = Descent
-t = 5500 ms, altitude = 0, az = 9, state = Landed
+t = 0 ms, altitude = 0, az = 9.81, temperature = 20, battery = 12.6, state = Ready
+t = 500 ms, altitude = 0, az = 9.81, temperature = 20.1, battery = 12.5, state = Ready
+t = 1000 ms, altitude = 0, az = 18, temperature = 20.3, battery = 12.5, state = Launch
+t = 1500 ms, altitude = 8, az = 17, temperature = 20.5, battery = 12.4, state = Ascent
+t = 2000 ms, altitude = 35, az = 14, temperature = 20.8, battery = 12.4, state = Ascent
+t = 2500 ms, altitude = 90, az = 10, temperature = 21.2, battery = 12.3, state = Ascent
+t = 3000 ms, altitude = 120, az = 9, temperature = 21.6, battery = 12.2, state = Ascent
+t = 3500 ms, altitude = 118, az = 9, temperature = 22, battery = 12.1, state = Apogee
+t = 4000 ms, altitude = 95, az = 9, temperature = 22.3, battery = 12.1, state = Descent
+t = 4500 ms, altitude = 50, az = 9, temperature = 22.6, battery = 12, state = Descent
+t = 5000 ms, altitude = 10, az = 9, temperature = 22.9, battery = 11.9, state = Descent
+t = 5500 ms, altitude = 0, az = 9, temperature = 23, battery = 11.8, state = Landed
 Flight log finished

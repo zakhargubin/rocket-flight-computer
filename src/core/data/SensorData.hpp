@@ -6,7 +6,9 @@ namespace fc {
 
     enum class SensorKind {
         IMU,
-        Barometer
+        Barometer,
+        Temperature,
+        Battery
     };
 
     struct SensorData {
