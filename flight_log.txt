@@ -1,14 +1,951 @@
+Playback mode: Real-time x5
 Flight log started
-t = 0 ms, altitude = 0, az = 9.81, temperature = 20, battery = 12.6, state = Ready
-t = 500 ms, altitude = 0, az = 9.81, temperature = 20.1, battery = 12.5, state = Ready
-t = 1000 ms, altitude = 0, az = 18, temperature = 20.3, battery = 12.5, state = Launch
-t = 1500 ms, altitude = 8, az = 17, temperature = 20.5, battery = 12.4, state = Ascent
-t = 2000 ms, altitude = 35, az = 14, temperature = 20.8, battery = 12.4, state = Ascent
-t = 2500 ms, altitude = 90, az = 10, temperature = 21.2, battery = 12.3, state = Ascent
-t = 3000 ms, altitude = 120, az = 9, temperature = 21.6, battery = 12.2, state = Ascent
-t = 3500 ms, altitude = 118, az = 9, temperature = 22, battery = 12.1, state = Apogee
-t = 4000 ms, altitude = 95, az = 9, temperature = 22.3, battery = 12.1, state = Descent
-t = 4500 ms, altitude = 50, az = 9, temperature = 22.6, battery = 12, state = Descent
-t = 5000 ms, altitude = 10, az = 9, temperature = 22.9, battery = 11.9, state = Descent
-t = 5500 ms, altitude = 0, az = 9, temperature = 23, battery = 11.8, state = Landed
+t = 91575 ms, altitude = -0.5, az = 2.05, temperature = 18.69, battery = 12.2695, state = Ready
+[Error] AltitudeNegative at t = 91575 ms
+t = 91938 ms, altitude = 0.95, az = 7.31, temperature = 19.16, battery = 12.2694, state = Launch
+t = 92293 ms, altitude = 4.09, az = 7.67, temperature = 19.12, battery = 12.2692, state = Ascent
+t = 92648 ms, altitude = 10.45, az = 5.48, temperature = 19, battery = 12.2691, state = Ascent
+t = 93011 ms, altitude = 18.46, az = -1.04, temperature = 18.91, battery = 12.269, state = Ascent
+t = 93377 ms, altitude = 28.19, az = -0.3, temperature = 18.84, battery = 12.2689, state = Ascent
+t = 93743 ms, altitude = 38.87, az = -0.58, temperature = 18.78, battery = 12.2688, state = Ascent
+t = 94105 ms, altitude = 49.56, az = -0.51, temperature = 18.72, battery = 12.2686, state = Ascent
+t = 94469 ms, altitude = 60.55, az = -0.54, temperature = 18.68, battery = 12.2685, state = Ascent
+t = 94832 ms, altitude = 71.31, az = -0.38, temperature = 18.66, battery = 12.2684, state = Ascent
+t = 95198 ms, altitude = 82.05, az = -0.32, temperature = 18.62, battery = 12.2683, state = Ascent
+t = 95560 ms, altitude = 92.61, az = -0.24, temperature = 18.59, battery = 12.2681, state = Ascent
+t = 95924 ms, altitude = 102.6, az = -0.17, temperature = 18.58, battery = 12.268, state = Ascent
+t = 96287 ms, altitude = 112.16, az = -0.14, temperature = 18.56, battery = 12.2679, state = Ascent
+t = 96651 ms, altitude = 121.25, az = -0.09, temperature = 18.54, battery = 12.2678, state = Ascent
+t = 97014 ms, altitude = 129.69, az = -0.09, temperature = 18.53, battery = 12.2677, state = Ascent
+t = 97392 ms, altitude = 137.55, az = -0.05, temperature = 18.53, battery = 12.2675, state = Ascent
+t = 97757 ms, altitude = 144.71, az = -0.06, temperature = 18.51, battery = 12.2674, state = Ascent
+t = 98120 ms, altitude = 151.12, az = -0.04, temperature = 18.51, battery = 12.2673, state = Ascent
+t = 98483 ms, altitude = 156.75, az = -0.03, temperature = 18.51, battery = 12.2672, state = Ascent
+t = 98845 ms, altitude = 161.47, az = -0.05, temperature = 18.49, battery = 12.2671, state = Ascent
+t = 99213 ms, altitude = 165.39, az = -0.05, temperature = 18.47, battery = 12.2669, state = Ascent
+t = 99575 ms, altitude = 168.36, az = 0.05, temperature = 18.41, battery = 12.2668, state = Ascent
+t = 99946 ms, altitude = 170.38, az = -0.62, temperature = 18.37, battery = 12.2667, state = Ascent
+t = 100319 ms, altitude = 171.48, az = -6.13, temperature = 18.39, battery = 12.2666, state = Ascent
+t = 100690 ms, altitude = 172.08, az = 0.5, temperature = 18.35, battery = 12.2664, state = Ascent
+t = 101066 ms, altitude = 172.29, az = 1.35, temperature = 18.32, battery = 12.2663, state = Ascent
+t = 101439 ms, altitude = 172.11, az = 1.11, temperature = 18.32, battery = 12.2662, state = Apogee
+t = 101812 ms, altitude = 171.83, az = 1.1, temperature = 18.29, battery = 12.2661, state = Descent
+t = 102183 ms, altitude = 171.23, az = 1.01, temperature = 18.28, battery = 12.2659, state = Descent
+t = 102547 ms, altitude = 170.58, az = 0.92, temperature = 18.25, battery = 12.2658, state = Descent
+t = 102914 ms, altitude = 169.74, az = 0.85, temperature = 18.24, battery = 12.2657, state = Descent
+t = 103277 ms, altitude = 168.73, az = 1.13, temperature = 18.23, battery = 12.2656, state = Descent
+t = 103640 ms, altitude = 167.56, az = 1.28, temperature = 18.23, battery = 12.2655, state = Descent
+t = 104003 ms, altitude = 166.21, az = 0.99, temperature = 18.23, battery = 12.2653, state = Descent
+t = 104366 ms, altitude = 164.84, az = 0.91, temperature = 18.2, battery = 12.2652, state = Descent
+t = 104733 ms, altitude = 163.37, az = 1.01, temperature = 18.15, battery = 12.2651, state = Descent
+t = 105097 ms, altitude = 161.85, az = 1.1, temperature = 18.13, battery = 12.265, state = Descent
+t = 105459 ms, altitude = 160.3, az = 1.06, temperature = 18.12, battery = 12.2648, state = Descent
+t = 105832 ms, altitude = 158.71, az = 0.96, temperature = 18.13, battery = 12.2647, state = Descent
+t = 106204 ms, altitude = 156.88, az = 0.95, temperature = 18.1, battery = 12.2646, state = Descent
+t = 106579 ms, altitude = 155.01, az = 0.98, temperature = 18.06, battery = 12.2645, state = Descent
+t = 106951 ms, altitude = 153.26, az = 1.08, temperature = 18.01, battery = 12.2643, state = Descent
+t = 107324 ms, altitude = 151.47, az = 1.14, temperature = 18.01, battery = 12.2642, state = Descent
+t = 107695 ms, altitude = 149.66, az = 1.06, temperature = 18.02, battery = 12.2641, state = Descent
+t = 108067 ms, altitude = 147.86, az = 0.93, temperature = 18.01, battery = 12.264, state = Descent
+t = 108436 ms, altitude = 146.06, az = 1.04, temperature = 18.01, battery = 12.2639, state = Descent
+t = 108810 ms, altitude = 144.16, az = 1.08, temperature = 18.01, battery = 12.2637, state = Descent
+t = 109182 ms, altitude = 142.18, az = 1.08, temperature = 18, battery = 12.2636, state = Descent
+t = 109554 ms, altitude = 140.2, az = 0.86, temperature = 18, battery = 12.2635, state = Descent
+t = 109931 ms, altitude = 138.33, az = 1, temperature = 17.96, battery = 12.2634, state = Descent
+t = 110304 ms, altitude = 136.51, az = 1.07, temperature = 17.94, battery = 12.2632, state = Descent
+t = 110675 ms, altitude = 134.67, az = 1.08, temperature = 17.94, battery = 12.2631, state = Descent
+t = 111047 ms, altitude = 132.67, az = 0.92, temperature = 17.92, battery = 12.263, state = Descent
+t = 111419 ms, altitude = 130.8, az = 1.07, temperature = 17.89, battery = 12.2629, state = Descent
+t = 111807 ms, altitude = 129.01, az = 1.06, temperature = 17.87, battery = 12.2627, state = Descent
+t = 112179 ms, altitude = 127.16, az = 1.08, temperature = 17.88, battery = 12.2626, state = Descent
+t = 112550 ms, altitude = 125.35, az = 0.99, temperature = 17.87, battery = 12.2625, state = Descent
+t = 112922 ms, altitude = 123.54, az = 1.05, temperature = 17.87, battery = 12.2624, state = Descent
+t = 113296 ms, altitude = 121.73, az = 1.04, temperature = 17.84, battery = 12.2622, state = Descent
+t = 113671 ms, altitude = 120.06, az = 0.91, temperature = 17.82, battery = 12.2621, state = Descent
+t = 114042 ms, altitude = 118.37, az = 1.02, temperature = 17.81, battery = 12.262, state = Descent
+t = 114414 ms, altitude = 116.62, az = 1.1, temperature = 17.81, battery = 12.2619, state = Descent
+t = 114786 ms, altitude = 114.84, az = 0.97, temperature = 17.81, battery = 12.2617, state = Descent
+t = 115159 ms, altitude = 113.13, az = 1, temperature = 17.8, battery = 12.2616, state = Descent
+t = 115534 ms, altitude = 111.32, az = 1.2, temperature = 17.8, battery = 12.2615, state = Descent
+t = 115906 ms, altitude = 109.59, az = 1.06, temperature = 17.76, battery = 12.2614, state = Descent
+t = 116279 ms, altitude = 107.85, az = 1.09, temperature = 17.76, battery = 12.2612, state = Descent
+t = 116649 ms, altitude = 106.13, az = 1.17, temperature = 17.77, battery = 12.2611, state = Descent
+t = 117022 ms, altitude = 104.33, az = 1.08, temperature = 17.75, battery = 12.261, state = Descent
+t = 117398 ms, altitude = 102.63, az = 0.99, temperature = 17.73, battery = 12.2609, state = Descent
+t = 117770 ms, altitude = 100.84, az = 0.85, temperature = 17.72, battery = 12.2607, state = Descent
+t = 118142 ms, altitude = 99.02, az = 0.97, temperature = 17.71, battery = 12.2606, state = Descent
+t = 118514 ms, altitude = 97.4, az = 1.02, temperature = 17.69, battery = 12.2605, state = Descent
+t = 118886 ms, altitude = 95.76, az = 1.19, temperature = 17.69, battery = 12.2604, state = Descent
+t = 119263 ms, altitude = 94.13, az = 1.11, temperature = 17.7, battery = 12.2602, state = Descent
+t = 119635 ms, altitude = 92.5, az = 0.98, temperature = 17.71, battery = 12.2601, state = Descent
+t = 120007 ms, altitude = 90.88, az = 0.84, temperature = 17.71, battery = 12.26, state = Descent
+t = 120380 ms, altitude = 89.18, az = 0.99, temperature = 17.7, battery = 12.2599, state = Descent
+t = 120753 ms, altitude = 87.39, az = 1.03, temperature = 17.68, battery = 12.2597, state = Descent
+t = 121127 ms, altitude = 85.54, az = 0.99, temperature = 17.64, battery = 12.2596, state = Descent
+t = 121499 ms, altitude = 83.63, az = 1.02, temperature = 17.62, battery = 12.2595, state = Descent
+t = 121871 ms, altitude = 81.81, az = 1.15, temperature = 17.59, battery = 12.2594, state = Descent
+t = 122243 ms, altitude = 80, az = 1.04, temperature = 17.56, battery = 12.2593, state = Descent
+t = 122614 ms, altitude = 78.13, az = 0.88, temperature = 17.56, battery = 12.2591, state = Descent
+t = 122989 ms, altitude = 76.28, az = 0.9, temperature = 17.54, battery = 12.259, state = Descent
+t = 123362 ms, altitude = 74.39, az = 0.97, temperature = 17.53, battery = 12.2589, state = Descent
+t = 123734 ms, altitude = 72.56, az = 1.17, temperature = 17.52, battery = 12.2588, state = Descent
+t = 124105 ms, altitude = 70.61, az = 1.32, temperature = 17.52, battery = 12.2586, state = Descent
+t = 124478 ms, altitude = 68.58, az = 1.13, temperature = 17.5, battery = 12.2585, state = Descent
+t = 124853 ms, altitude = 66.58, az = 1.07, temperature = 17.47, battery = 12.2584, state = Descent
+t = 125225 ms, altitude = 64.64, az = 1.12, temperature = 17.44, battery = 12.2583, state = Descent
+t = 125597 ms, altitude = 62.74, az = 1.04, temperature = 17.44, battery = 12.2581, state = Descent
+t = 125969 ms, altitude = 60.82, az = 0.96, temperature = 17.43, battery = 12.258, state = Descent
+t = 126341 ms, altitude = 59, az = 0.98, temperature = 17.43, battery = 12.2579, state = Descent
+t = 126727 ms, altitude = 57.2, az = 0.99, temperature = 17.43, battery = 12.2578, state = Descent
+t = 127098 ms, altitude = 55.33, az = 1.03, temperature = 17.44, battery = 12.2576, state = Descent
+t = 127471 ms, altitude = 53.46, az = 1.16, temperature = 17.44, battery = 12.2575, state = Descent
+t = 127843 ms, altitude = 51.64, az = 1.05, temperature = 17.44, battery = 12.2574, state = Descent
+t = 128216 ms, altitude = 49.71, az = 1.06, temperature = 17.42, battery = 12.2573, state = Descent
+t = 128591 ms, altitude = 47.92, az = 0.89, temperature = 17.4, battery = 12.2571, state = Descent
+t = 128963 ms, altitude = 46.18, az = 0.99, temperature = 17.39, battery = 12.257, state = Descent
+t = 129336 ms, altitude = 44.47, az = 1.04, temperature = 17.38, battery = 12.2569, state = Descent
+t = 129708 ms, altitude = 42.78, az = 1, temperature = 17.39, battery = 12.2568, state = Descent
+t = 130079 ms, altitude = 41, az = 0.89, temperature = 17.37, battery = 12.2566, state = Descent
+t = 130456 ms, altitude = 39.14, az = 1.21, temperature = 17.35, battery = 12.2565, state = Descent
+t = 130827 ms, altitude = 37.35, az = 1.12, temperature = 17.36, battery = 12.2564, state = Descent
+t = 131200 ms, altitude = 35.56, az = 0.97, temperature = 17.36, battery = 12.2563, state = Descent
+t = 131572 ms, altitude = 33.69, az = 1.05, temperature = 17.35, battery = 12.2561, state = Descent
+t = 131944 ms, altitude = 31.8, az = 1.01, temperature = 17.33, battery = 12.256, state = Descent
+t = 132320 ms, altitude = 30.08, az = 1.05, temperature = 17.32, battery = 12.2559, state = Descent
+t = 132691 ms, altitude = 28.3, az = 0.98, temperature = 17.32, battery = 12.2558, state = Descent
+t = 133064 ms, altitude = 26.32, az = 0.92, temperature = 17.31, battery = 12.2556, state = Descent
+t = 133437 ms, altitude = 24.71, az = 1.08, temperature = 17.31, battery = 12.2555, state = Descent
+t = 133810 ms, altitude = 22.9, az = 1.29, temperature = 17.31, battery = 12.2554, state = Descent
+t = 134185 ms, altitude = 21.08, az = 1.2, temperature = 17.31, battery = 12.2553, state = Descent
+t = 134557 ms, altitude = 19.27, az = 0.86, temperature = 17.29, battery = 12.2551, state = Descent
+t = 134930 ms, altitude = 17.39, az = 0.96, temperature = 17.28, battery = 12.255, state = Descent
+t = 135302 ms, altitude = 15.52, az = 1.06, temperature = 17.27, battery = 12.2549, state = Descent
+t = 135673 ms, altitude = 13.81, az = 0.9, temperature = 17.24, battery = 12.2548, state = Descent
+t = 136049 ms, altitude = 12.04, az = 0.34, temperature = 17.25, battery = 12.2547, state = Descent
+t = 136422 ms, altitude = 10.46, az = 0.24, temperature = 17.26, battery = 12.2545, state = Descent
+t = 136795 ms, altitude = 9.1, az = -0, temperature = 17.27, battery = 12.2544, state = Descent
+t = 137158 ms, altitude = 7.87, az = 0.02, temperature = 17.29, battery = 12.2543, state = Descent
+t = 137522 ms, altitude = 6.77, az = 0, temperature = 17.3, battery = 12.2542, state = Descent
+t = 137889 ms, altitude = 5.81, az = 0.02, temperature = 17.32, battery = 12.254, state = Descent
+t = 138253 ms, altitude = 4.97, az = 0.01, temperature = 17.33, battery = 12.2539, state = Descent
+t = 138615 ms, altitude = 4.22, az = -0.02, temperature = 17.33, battery = 12.2538, state = Descent
+t = 138979 ms, altitude = 3.53, az = 0.02, temperature = 17.33, battery = 12.2537, state = Descent
+t = 139341 ms, altitude = 2.93, az = 0.02, temperature = 17.33, battery = 12.2536, state = Descent
+t = 139708 ms, altitude = 2.36, az = 0.01, temperature = 17.33, battery = 12.2534, state = Descent
+t = 140071 ms, altitude = 1.86, az = -0.02, temperature = 17.34, battery = 12.2533, state = Landed
+t = 140435 ms, altitude = 1.43, az = 0.03, temperature = 17.34, battery = 12.2532, state = Landed
+t = 140800 ms, altitude = 1.07, az = -0.01, temperature = 17.35, battery = 12.2531, state = Landed
+t = 141163 ms, altitude = 0.73, az = 0.04, temperature = 17.35, battery = 12.2529, state = Landed
+t = 141542 ms, altitude = 0.39, az = 0, temperature = 17.35, battery = 12.2528, state = Landed
+t = 141906 ms, altitude = 0.13, az = 0.03, temperature = 17.36, battery = 12.2527, state = Landed
+t = 142271 ms, altitude = -0.09, az = 0.04, temperature = 17.37, battery = 12.2526, state = Landed
+[Error] AltitudeNegative at t = 142271 ms
+t = 142635 ms, altitude = -0.33, az = -0.02, temperature = 17.38, battery = 12.2525, state = Landed
+[Error] AltitudeNegative at t = 142635 ms
+t = 142998 ms, altitude = -0.51, az = -0.02, temperature = 17.38, battery = 12.2523, state = Landed
+[Error] AltitudeNegative at t = 142998 ms
+t = 143362 ms, altitude = -0.68, az = 0.04, temperature = 17.39, battery = 12.2522, state = Landed
+[Error] AltitudeNegative at t = 143362 ms
+t = 143729 ms, altitude = -0.84, az = 0.01, temperature = 17.39, battery = 12.2521, state = Landed
+[Error] AltitudeNegative at t = 143729 ms
+t = 144094 ms, altitude = -1, az = -0.01, temperature = 17.38, battery = 12.252, state = Landed
+[Error] AltitudeNegative at t = 144094 ms
+t = 144457 ms, altitude = -1.11, az = 0.01, temperature = 17.38, battery = 12.2518, state = Landed
+[Error] AltitudeNegative at t = 144457 ms
+t = 144823 ms, altitude = -1.21, az = 0.03, temperature = 17.39, battery = 12.2517, state = Landed
+[Error] AltitudeNegative at t = 144823 ms
+t = 145187 ms, altitude = -1.31, az = -0.01, temperature = 17.38, battery = 12.2516, state = Landed
+[Error] AltitudeNegative at t = 145187 ms
+t = 145554 ms, altitude = -1.37, az = 0, temperature = 17.38, battery = 12.2515, state = Landed
+[Error] AltitudeNegative at t = 145554 ms
+t = 145920 ms, altitude = -1.44, az = 0.01, temperature = 17.39, battery = 12.2514, state = Landed
+[Error] AltitudeNegative at t = 145920 ms
+t = 146284 ms, altitude = -1.5, az = 0.04, temperature = 17.4, battery = 12.2512, state = Landed
+[Error] AltitudeNegative at t = 146284 ms
+t = 146648 ms, altitude = -1.58, az = 0.03, temperature = 17.4, battery = 12.2511, state = Landed
+[Error] AltitudeNegative at t = 146648 ms
+t = 147012 ms, altitude = -1.63, az = -0.01, temperature = 17.4, battery = 12.251, state = Landed
+[Error] AltitudeNegative at t = 147012 ms
+t = 147380 ms, altitude = -1.67, az = -0.02, temperature = 17.41, battery = 12.2509, state = Landed
+[Error] AltitudeNegative at t = 147380 ms
+t = 147744 ms, altitude = -1.73, az = 0.01, temperature = 17.41, battery = 12.2508, state = Landed
+[Error] AltitudeNegative at t = 147744 ms
+t = 148108 ms, altitude = -1.78, az = 0.04, temperature = 17.42, battery = 12.2506, state = Landed
+[Error] AltitudeNegative at t = 148108 ms
+t = 148471 ms, altitude = -1.82, az = 0.03, temperature = 17.42, battery = 12.2505, state = Landed
+[Error] AltitudeNegative at t = 148471 ms
+t = 148836 ms, altitude = -1.86, az = -0.02, temperature = 17.42, battery = 12.2504, state = Landed
+[Error] AltitudeNegative at t = 148836 ms
+t = 149203 ms, altitude = -1.88, az = 0.05, temperature = 17.43, battery = 12.2503, state = Landed
+[Error] AltitudeNegative at t = 149203 ms
+t = 149568 ms, altitude = -1.91, az = 0.02, temperature = 17.43, battery = 12.2501, state = Landed
+[Error] AltitudeNegative at t = 149568 ms
+t = 149932 ms, altitude = -1.93, az = 0.02, temperature = 17.43, battery = 12.25, state = Landed
+[Error] AltitudeNegative at t = 149932 ms
+t = 150296 ms, altitude = -1.95, az = -0.01, temperature = 17.43, battery = 12.2499, state = Landed
+[Error] AltitudeNegative at t = 150296 ms
+t = 150660 ms, altitude = -1.96, az = 0.04, temperature = 17.44, battery = 12.2498, state = Landed
+[Error] AltitudeNegative at t = 150660 ms
+t = 151028 ms, altitude = -1.98, az = 0.03, temperature = 17.43, battery = 12.2497, state = Landed
+[Error] AltitudeNegative at t = 151028 ms
+t = 151392 ms, altitude = -1.97, az = -0.02, temperature = 17.43, battery = 12.2495, state = Landed
+[Error] AltitudeNegative at t = 151392 ms
+t = 151756 ms, altitude = -1.98, az = 0.04, temperature = 17.44, battery = 12.2494, state = Landed
+[Error] AltitudeNegative at t = 151756 ms
+t = 152120 ms, altitude = -1.99, az = -0.01, temperature = 17.44, battery = 12.2493, state = Landed
+[Error] AltitudeNegative at t = 152120 ms
+t = 152483 ms, altitude = -2, az = -0.02, temperature = 17.44, battery = 12.2492, state = Landed
+[Error] AltitudeNegative at t = 152483 ms
+t = 152852 ms, altitude = -2.01, az = -0.02, temperature = 17.45, battery = 12.249, state = Landed
+[Error] AltitudeNegative at t = 152852 ms
+t = 153217 ms, altitude = -2, az = 0.02, temperature = 17.45, battery = 12.2489, state = Landed
+[Error] AltitudeNegative at t = 153217 ms
+t = 153581 ms, altitude = -1.99, az = -0.01, temperature = 17.45, battery = 12.2488, state = Landed
+[Error] AltitudeNegative at t = 153581 ms
+t = 153947 ms, altitude = -1.99, az = -0, temperature = 17.45, battery = 12.2487, state = Landed
+[Error] AltitudeNegative at t = 153947 ms
+t = 154310 ms, altitude = -1.97, az = 0.02, temperature = 17.45, battery = 12.2486, state = Landed
+[Error] AltitudeNegative at t = 154310 ms
+t = 154675 ms, altitude = -1.97, az = 0.03, temperature = 17.45, battery = 12.2484, state = Landed
+[Error] AltitudeNegative at t = 154675 ms
+t = 155043 ms, altitude = -1.99, az = 0.01, temperature = 17.46, battery = 12.2483, state = Landed
+[Error] AltitudeNegative at t = 155043 ms
+t = 155407 ms, altitude = -2.01, az = 0.04, temperature = 17.47, battery = 12.2482, state = Landed
+[Error] AltitudeNegative at t = 155407 ms
+t = 155771 ms, altitude = -2, az = -0.01, temperature = 17.47, battery = 12.2481, state = Landed
+[Error] AltitudeNegative at t = 155771 ms
+t = 156135 ms, altitude = -1.99, az = 0.02, temperature = 17.47, battery = 12.248, state = Landed
+[Error] AltitudeNegative at t = 156135 ms
+t = 156499 ms, altitude = -1.99, az = 0.02, temperature = 17.48, battery = 12.2478, state = Landed
+[Error] AltitudeNegative at t = 156499 ms
+t = 156879 ms, altitude = -2.02, az = 0.04, temperature = 17.48, battery = 12.2477, state = Landed
+[Error] AltitudeNegative at t = 156879 ms
+t = 157243 ms, altitude = -2.01, az = -0.02, temperature = 17.49, battery = 12.2476, state = Landed
+[Error] AltitudeNegative at t = 157243 ms
+t = 157606 ms, altitude = -2, az = 0.01, temperature = 17.49, battery = 12.2475, state = Landed
+[Error] AltitudeNegative at t = 157606 ms
+t = 157971 ms, altitude = -2, az = -0.01, temperature = 17.49, battery = 12.2473, state = Landed
+[Error] AltitudeNegative at t = 157971 ms
+t = 158334 ms, altitude = -1.98, az = 0.03, temperature = 17.5, battery = 12.2472, state = Landed
+[Error] AltitudeNegative at t = 158334 ms
+t = 158702 ms, altitude = -2, az = -0.02, temperature = 17.5, battery = 12.2471, state = Landed
+[Error] AltitudeNegative at t = 158702 ms
+t = 159067 ms, altitude = -2.02, az = 0.04, temperature = 17.51, battery = 12.247, state = Landed
+[Error] AltitudeNegative at t = 159067 ms
+t = 159431 ms, altitude = -2.01, az = 0, temperature = 17.52, battery = 12.2469, state = Landed
+[Error] AltitudeNegative at t = 159431 ms
+t = 159796 ms, altitude = -2, az = 0.01, temperature = 17.53, battery = 12.2467, state = Landed
+[Error] AltitudeNegative at t = 159796 ms
+t = 160159 ms, altitude = -2, az = 0.03, temperature = 17.52, battery = 12.2466, state = Landed
+[Error] AltitudeNegative at t = 160159 ms
+t = 160527 ms, altitude = -2.03, az = 0.02, temperature = 17.52, battery = 12.2465, state = Landed
+[Error] AltitudeNegative at t = 160527 ms
+t = 160890 ms, altitude = -2.02, az = 0.05, temperature = 17.52, battery = 12.2464, state = Landed
+[Error] AltitudeNegative at t = 160890 ms
+t = 161255 ms, altitude = -2.03, az = 0.01, temperature = 17.53, battery = 12.2462, state = Landed
+[Error] AltitudeNegative at t = 161255 ms
+t = 161618 ms, altitude = -2.02, az = -0.02, temperature = 17.53, battery = 12.2461, state = Landed
+[Error] AltitudeNegative at t = 161618 ms
+t = 161983 ms, altitude = -2.01, az = 0.02, temperature = 17.53, battery = 12.246, state = Landed
+[Error] AltitudeNegative at t = 161983 ms
+t = 162348 ms, altitude = -2.05, az = 0.04, temperature = 17.54, battery = 12.2459, state = Landed
+[Error] AltitudeNegative at t = 162348 ms
+t = 162716 ms, altitude = -2.05, az = 0.01, temperature = 17.55, battery = 12.2458, state = Landed
+[Error] AltitudeNegative at t = 162716 ms
+t = 163081 ms, altitude = -2.07, az = 0.03, temperature = 17.55, battery = 12.2456, state = Landed
+[Error] AltitudeNegative at t = 163081 ms
+t = 163445 ms, altitude = -2.1, az = -0.02, temperature = 17.54, battery = 12.2455, state = Landed
+[Error] AltitudeNegative at t = 163445 ms
+t = 163812 ms, altitude = -2.11, az = -0.02, temperature = 17.54, battery = 12.2454, state = Landed
+[Error] AltitudeNegative at t = 163812 ms
+t = 164175 ms, altitude = -2.13, az = 0.03, temperature = 17.55, battery = 12.2453, state = Landed
+[Error] AltitudeNegative at t = 164175 ms
+t = 164544 ms, altitude = -2.11, az = 0.02, temperature = 17.55, battery = 12.2452, state = Landed
+[Error] AltitudeNegative at t = 164544 ms
+t = 164910 ms, altitude = -2.15, az = 0.02, temperature = 17.56, battery = 12.245, state = Landed
+[Error] AltitudeNegative at t = 164910 ms
+t = 165273 ms, altitude = -2.16, az = 0.02, temperature = 17.56, battery = 12.2449, state = Landed
+[Error] AltitudeNegative at t = 165273 ms
+t = 165637 ms, altitude = -2.16, az = -0.03, temperature = 17.56, battery = 12.2448, state = Landed
+[Error] AltitudeNegative at t = 165637 ms
+t = 166000 ms, altitude = -2.15, az = 0.03, temperature = 17.55, battery = 12.2447, state = Landed
+[Error] AltitudeNegative at t = 166000 ms
+t = 166368 ms, altitude = -2.14, az = -0.02, temperature = 17.56, battery = 12.2445, state = Landed
+[Error] AltitudeNegative at t = 166368 ms
+t = 166732 ms, altitude = -2.1, az = 0.02, temperature = 17.56, battery = 12.2444, state = Landed
+[Error] AltitudeNegative at t = 166732 ms
+t = 167096 ms, altitude = -2.1, az = 0.03, temperature = 17.56, battery = 12.2443, state = Landed
+[Error] AltitudeNegative at t = 167096 ms
+t = 167460 ms, altitude = -2.09, az = 0.03, temperature = 17.57, battery = 12.2442, state = Landed
+[Error] AltitudeNegative at t = 167460 ms
+t = 167825 ms, altitude = -2.04, az = 0.01, temperature = 17.58, battery = 12.2441, state = Landed
+[Error] AltitudeNegative at t = 167825 ms
+t = 168194 ms, altitude = -2.03, az = -0.02, temperature = 17.58, battery = 12.2439, state = Landed
+[Error] AltitudeNegative at t = 168194 ms
+t = 168557 ms, altitude = -2.01, az = 0.03, temperature = 17.58, battery = 12.2438, state = Landed
+[Error] AltitudeNegative at t = 168557 ms
+t = 168923 ms, altitude = -2, az = 0.03, temperature = 17.59, battery = 12.2437, state = Landed
+[Error] AltitudeNegative at t = 168923 ms
+t = 169287 ms, altitude = -1.99, az = -0.02, temperature = 17.59, battery = 12.2436, state = Landed
+[Error] AltitudeNegative at t = 169287 ms
+t = 169651 ms, altitude = -1.95, az = -0.02, temperature = 17.6, battery = 12.2434, state = Landed
+[Error] AltitudeNegative at t = 169651 ms
+t = 170015 ms, altitude = -1.95, az = -0, temperature = 17.6, battery = 12.2433, state = Landed
+[Error] AltitudeNegative at t = 170015 ms
+t = 170382 ms, altitude = -1.95, az = -0.02, temperature = 17.61, battery = 12.2432, state = Landed
+[Error] AltitudeNegative at t = 170382 ms
+t = 170747 ms, altitude = -1.96, az = -0.01, temperature = 17.61, battery = 12.2431, state = Landed
+[Error] AltitudeNegative at t = 170747 ms
+t = 171112 ms, altitude = -1.98, az = -0, temperature = 17.61, battery = 12.243, state = Landed
+[Error] AltitudeNegative at t = 171112 ms
+t = 171476 ms, altitude = -1.97, az = 0, temperature = 17.61, battery = 12.2428, state = Landed
+[Error] AltitudeNegative at t = 171476 ms
+t = 171841 ms, altitude = -1.95, az = -0.01, temperature = 17.61, battery = 12.2427, state = Landed
+[Error] AltitudeNegative at t = 171841 ms
+t = 172222 ms, altitude = -1.94, az = 0.01, temperature = 17.61, battery = 12.2426, state = Landed
+[Error] AltitudeNegative at t = 172222 ms
+t = 172588 ms, altitude = -1.93, az = -0.03, temperature = 17.61, battery = 12.2425, state = Landed
+[Error] AltitudeNegative at t = 172588 ms
+t = 172953 ms, altitude = -1.93, az = -0.01, temperature = 17.61, battery = 12.2423, state = Landed
+[Error] AltitudeNegative at t = 172953 ms
+t = 173318 ms, altitude = -1.92, az = 0.04, temperature = 17.62, battery = 12.2422, state = Landed
+[Error] AltitudeNegative at t = 173318 ms
+t = 173682 ms, altitude = -1.92, az = 0.01, temperature = 17.62, battery = 12.2421, state = Landed
+[Error] AltitudeNegative at t = 173682 ms
+t = 174050 ms, altitude = -1.91, az = 0.03, temperature = 17.61, battery = 12.242, state = Landed
+[Error] AltitudeNegative at t = 174050 ms
+t = 174414 ms, altitude = -1.88, az = -0.02, temperature = 17.61, battery = 12.2419, state = Landed
+[Error] AltitudeNegative at t = 174414 ms
+t = 174778 ms, altitude = -1.89, az = 0.02, temperature = 17.62, battery = 12.2417, state = Landed
+[Error] AltitudeNegative at t = 174778 ms
+t = 175142 ms, altitude = -1.9, az = -0.02, temperature = 17.62, battery = 12.2416, state = Landed
+[Error] AltitudeNegative at t = 175142 ms
+t = 175507 ms, altitude = -1.89, az = 0.03, temperature = 17.62, battery = 12.2415, state = Landed
+[Error] AltitudeNegative at t = 175507 ms
+t = 175876 ms, altitude = -1.9, az = -0, temperature = 17.63, battery = 12.2414, state = Landed
+[Error] AltitudeNegative at t = 175876 ms
+t = 176240 ms, altitude = -1.92, az = 0.04, temperature = 17.63, battery = 12.2413, state = Landed
+[Error] AltitudeNegative at t = 176240 ms
+t = 176606 ms, altitude = -1.92, az = 0.03, temperature = 17.63, battery = 12.2411, state = Landed
+[Error] AltitudeNegative at t = 176606 ms
+t = 176971 ms, altitude = -1.94, az = 0.01, temperature = 17.63, battery = 12.241, state = Landed
+[Error] AltitudeNegative at t = 176971 ms
+t = 177335 ms, altitude = -1.96, az = 0.04, temperature = 17.63, battery = 12.2409, state = Landed
+[Error] AltitudeNegative at t = 177335 ms
+t = 177700 ms, altitude = -1.97, az = 0.03, temperature = 17.64, battery = 12.2408, state = Landed
+[Error] AltitudeNegative at t = 177700 ms
+t = 178068 ms, altitude = -1.99, az = 0, temperature = 17.64, battery = 12.2406, state = Landed
+[Error] AltitudeNegative at t = 178068 ms
+t = 178433 ms, altitude = -2.02, az = -0.02, temperature = 17.64, battery = 12.2405, state = Landed
+[Error] AltitudeNegative at t = 178433 ms
+t = 178797 ms, altitude = -2.03, az = 0.03, temperature = 17.65, battery = 12.2404, state = Landed
+[Error] AltitudeNegative at t = 178797 ms
+t = 179162 ms, altitude = -2.05, az = 0.01, temperature = 17.64, battery = 12.2403, state = Landed
+[Error] AltitudeNegative at t = 179162 ms
+t = 179526 ms, altitude = -2.06, az = -0.01, temperature = 17.64, battery = 12.2402, state = Landed
+[Error] AltitudeNegative at t = 179526 ms
+t = 179895 ms, altitude = -2.09, az = -0, temperature = 17.65, battery = 12.24, state = Landed
+[Error] AltitudeNegative at t = 179895 ms
+t = 180259 ms, altitude = -2.12, az = -0.02, temperature = 17.66, battery = 12.2399, state = Landed
+[Error] AltitudeNegative at t = 180259 ms
+t = 180624 ms, altitude = -2.13, az = -0.02, temperature = 17.66, battery = 12.2398, state = Landed
+[Error] AltitudeNegative at t = 180624 ms
+t = 180989 ms, altitude = -2.13, az = 0.03, temperature = 17.66, battery = 12.2397, state = Landed
+[Error] AltitudeNegative at t = 180989 ms
+t = 181355 ms, altitude = -2.13, az = 0.03, temperature = 17.67, battery = 12.2395, state = Landed
+[Error] AltitudeNegative at t = 181355 ms
+t = 181723 ms, altitude = -2.12, az = -0.01, temperature = 17.66, battery = 12.2394, state = Landed
+[Error] AltitudeNegative at t = 181723 ms
+t = 182088 ms, altitude = -2.12, az = -0, temperature = 17.66, battery = 12.2393, state = Landed
+[Error] AltitudeNegative at t = 182088 ms
+t = 182453 ms, altitude = -2.11, az = -0.03, temperature = 17.66, battery = 12.2392, state = Landed
+[Error] AltitudeNegative at t = 182453 ms
+t = 182818 ms, altitude = -2.09, az = 0.02, temperature = 17.66, battery = 12.2391, state = Landed
+[Error] AltitudeNegative at t = 182818 ms
+t = 183183 ms, altitude = -2.12, az = -0.01, temperature = 17.66, battery = 12.2389, state = Landed
+[Error] AltitudeNegative at t = 183183 ms
+t = 183550 ms, altitude = -2.11, az = 0.03, temperature = 17.66, battery = 12.2388, state = Landed
+[Error] AltitudeNegative at t = 183550 ms
+t = 183915 ms, altitude = -2.1, az = 0.01, temperature = 17.66, battery = 12.2387, state = Landed
+[Error] AltitudeNegative at t = 183915 ms
+t = 184280 ms, altitude = -2.12, az = -0.02, temperature = 17.66, battery = 12.2386, state = Landed
+[Error] AltitudeNegative at t = 184280 ms
+t = 184644 ms, altitude = -2.09, az = -0.01, temperature = 17.66, battery = 12.2385, state = Landed
+[Error] AltitudeNegative at t = 184644 ms
+t = 185009 ms, altitude = -2.08, az = -0.01, temperature = 17.66, battery = 12.2383, state = Landed
+[Error] AltitudeNegative at t = 185009 ms
+t = 185373 ms, altitude = -2.08, az = 0.01, temperature = 17.66, battery = 12.2382, state = Landed
+[Error] AltitudeNegative at t = 185373 ms
+t = 185741 ms, altitude = -2.05, az = 0.03, temperature = 17.67, battery = 12.2381, state = Landed
+[Error] AltitudeNegative at t = 185741 ms
+t = 186106 ms, altitude = -2.06, az = 0.02, temperature = 17.66, battery = 12.238, state = Landed
+[Error] AltitudeNegative at t = 186106 ms
+t = 186470 ms, altitude = -2.08, az = -0.01, temperature = 17.67, battery = 12.2378, state = Landed
+[Error] AltitudeNegative at t = 186470 ms
+t = 186835 ms, altitude = -2.05, az = -0.02, temperature = 17.68, battery = 12.2377, state = Landed
+[Error] AltitudeNegative at t = 186835 ms
+t = 187200 ms, altitude = -2.06, az = -0.02, temperature = 17.67, battery = 12.2376, state = Landed
+[Error] AltitudeNegative at t = 187200 ms
+t = 187578 ms, altitude = -2.04, az = 0.02, temperature = 17.68, battery = 12.2375, state = Landed
+[Error] AltitudeNegative at t = 187578 ms
+t = 187942 ms, altitude = -2.04, az = -0, temperature = 17.68, battery = 12.2374, state = Landed
+[Error] AltitudeNegative at t = 187942 ms
+t = 188307 ms, altitude = -2.04, az = -0, temperature = 17.68, battery = 12.2372, state = Landed
+[Error] AltitudeNegative at t = 188307 ms
+t = 188673 ms, altitude = -2.03, az = -0.01, temperature = 17.68, battery = 12.2371, state = Landed
+[Error] AltitudeNegative at t = 188673 ms
+t = 189037 ms, altitude = -2.04, az = 0, temperature = 17.68, battery = 12.237, state = Landed
+[Error] AltitudeNegative at t = 189037 ms
+t = 189405 ms, altitude = -2.05, az = -0.01, temperature = 17.68, battery = 12.2369, state = Landed
+[Error] AltitudeNegative at t = 189405 ms
+t = 189770 ms, altitude = -2.07, az = -0, temperature = 17.69, battery = 12.2367, state = Landed
+[Error] AltitudeNegative at t = 189770 ms
+t = 190135 ms, altitude = -2.03, az = 0.03, temperature = 17.7, battery = 12.2366, state = Landed
+[Error] AltitudeNegative at t = 190135 ms
+t = 190498 ms, altitude = -2.01, az = -0.01, temperature = 17.7, battery = 12.2365, state = Landed
+[Error] AltitudeNegative at t = 190498 ms
+t = 190864 ms, altitude = -1.99, az = 0.03, temperature = 17.71, battery = 12.2364, state = Landed
+[Error] AltitudeNegative at t = 190864 ms
+t = 191228 ms, altitude = -1.98, az = 0.02, temperature = 17.71, battery = 12.2363, state = Landed
+[Error] AltitudeNegative at t = 191228 ms
+t = 191597 ms, altitude = -1.96, az = 0.03, temperature = 17.71, battery = 12.2361, state = Landed
+[Error] AltitudeNegative at t = 191597 ms
+t = 191961 ms, altitude = -1.97, az = -0.01, temperature = 17.71, battery = 12.236, state = Landed
+[Error] AltitudeNegative at t = 191961 ms
+t = 192325 ms, altitude = -1.97, az = 0.03, temperature = 17.71, battery = 12.2359, state = Landed
+[Error] AltitudeNegative at t = 192325 ms
+t = 192690 ms, altitude = -1.98, az = 0.03, temperature = 17.7, battery = 12.2358, state = Landed
+[Error] AltitudeNegative at t = 192690 ms
+t = 193054 ms, altitude = -1.96, az = 0.02, temperature = 17.69, battery = 12.2356, state = Landed
+[Error] AltitudeNegative at t = 193054 ms
+t = 193422 ms, altitude = -1.98, az = -0.01, temperature = 17.68, battery = 12.2355, state = Landed
+[Error] AltitudeNegative at t = 193422 ms
+t = 193786 ms, altitude = -1.97, az = -0.02, temperature = 17.7, battery = 12.2354, state = Landed
+[Error] AltitudeNegative at t = 193786 ms
+t = 194151 ms, altitude = -1.94, az = -0.01, temperature = 17.7, battery = 12.2353, state = Landed
+[Error] AltitudeNegative at t = 194151 ms
+t = 194514 ms, altitude = -1.94, az = 0.03, temperature = 17.7, battery = 12.2352, state = Landed
+[Error] AltitudeNegative at t = 194514 ms
+t = 194880 ms, altitude = -1.97, az = 0.03, temperature = 17.7, battery = 12.235, state = Landed
+[Error] AltitudeNegative at t = 194880 ms
+t = 195249 ms, altitude = -1.98, az = 0.04, temperature = 17.7, battery = 12.2349, state = Landed
+[Error] AltitudeNegative at t = 195249 ms
+t = 195613 ms, altitude = -1.96, az = 0.03, temperature = 17.7, battery = 12.2348, state = Landed
+[Error] AltitudeNegative at t = 195613 ms
+t = 195978 ms, altitude = -1.92, az = 0.02, temperature = 17.7, battery = 12.2347, state = Landed
+[Error] AltitudeNegative at t = 195978 ms
+t = 196342 ms, altitude = -1.91, az = 0, temperature = 17.7, battery = 12.2346, state = Landed
+[Error] AltitudeNegative at t = 196342 ms
+t = 196707 ms, altitude = -1.92, az = -0, temperature = 17.71, battery = 12.2344, state = Landed
+[Error] AltitudeNegative at t = 196707 ms
+t = 197074 ms, altitude = -1.92, az = -0.02, temperature = 17.71, battery = 12.2343, state = Landed
+[Error] AltitudeNegative at t = 197074 ms
+t = 197442 ms, altitude = -1.9, az = -0.01, temperature = 17.71, battery = 12.2342, state = Landed
+[Error] AltitudeNegative at t = 197442 ms
+t = 197807 ms, altitude = -1.89, az = 0.01, temperature = 17.71, battery = 12.2341, state = Landed
+[Error] AltitudeNegative at t = 197807 ms
+t = 198171 ms, altitude = -1.88, az = 0.03, temperature = 17.72, battery = 12.2339, state = Landed
+[Error] AltitudeNegative at t = 198171 ms
+t = 198536 ms, altitude = -1.9, az = 0.04, temperature = 17.72, battery = 12.2338, state = Landed
+[Error] AltitudeNegative at t = 198536 ms
+t = 198901 ms, altitude = -1.9, az = 0.04, temperature = 17.72, battery = 12.2337, state = Landed
+[Error] AltitudeNegative at t = 198901 ms
+t = 199269 ms, altitude = -1.91, az = -0.02, temperature = 17.72, battery = 12.2336, state = Landed
+[Error] AltitudeNegative at t = 199269 ms
+t = 199632 ms, altitude = -1.94, az = -0, temperature = 17.73, battery = 12.2335, state = Landed
+[Error] AltitudeNegative at t = 199632 ms
+t = 199997 ms, altitude = -1.94, az = 0.02, temperature = 17.73, battery = 12.2333, state = Landed
+[Error] AltitudeNegative at t = 199997 ms
+t = 200361 ms, altitude = -1.97, az = 0.02, temperature = 17.73, battery = 12.2332, state = Landed
+[Error] AltitudeNegative at t = 200361 ms
+t = 200726 ms, altitude = -1.99, az = -0.01, temperature = 17.73, battery = 12.2331, state = Landed
+[Error] AltitudeNegative at t = 200726 ms
+t = 201094 ms, altitude = -1.98, az = 0.01, temperature = 17.73, battery = 12.233, state = Landed
+[Error] AltitudeNegative at t = 201094 ms
+t = 201458 ms, altitude = -2, az = 0.04, temperature = 17.74, battery = 12.2328, state = Landed
+[Error] AltitudeNegative at t = 201458 ms
+t = 201824 ms, altitude = -2, az = -0.02, temperature = 17.74, battery = 12.2327, state = Landed
+[Error] AltitudeNegative at t = 201824 ms
+t = 202188 ms, altitude = -2, az = -0.02, temperature = 17.74, battery = 12.2326, state = Landed
+[Error] AltitudeNegative at t = 202188 ms
+t = 202553 ms, altitude = -2.01, az = 0.04, temperature = 17.74, battery = 12.2325, state = Landed
+[Error] AltitudeNegative at t = 202553 ms
+t = 202935 ms, altitude = -2.02, az = -0.02, temperature = 17.74, battery = 12.2324, state = Landed
+[Error] AltitudeNegative at t = 202935 ms
+t = 203301 ms, altitude = -2.04, az = -0, temperature = 17.74, battery = 12.2322, state = Landed
+[Error] AltitudeNegative at t = 203301 ms
+t = 203668 ms, altitude = -2.04, az = 0.03, temperature = 17.74, battery = 12.2321, state = Landed
+[Error] AltitudeNegative at t = 203668 ms
+t = 204035 ms, altitude = -2.04, az = -0.01, temperature = 17.74, battery = 12.232, state = Landed
+[Error] AltitudeNegative at t = 204035 ms
+t = 204401 ms, altitude = -2.03, az = 0.02, temperature = 17.74, battery = 12.2319, state = Landed
+[Error] AltitudeNegative at t = 204401 ms
+t = 204771 ms, altitude = -2.03, az = -0.01, temperature = 17.74, battery = 12.2317, state = Landed
+[Error] AltitudeNegative at t = 204771 ms
+t = 205137 ms, altitude = -2.02, az = -0.01, temperature = 17.74, battery = 12.2316, state = Landed
+[Error] AltitudeNegative at t = 205137 ms
+t = 205503 ms, altitude = -2.02, az = -0.01, temperature = 17.74, battery = 12.2315, state = Landed
+[Error] AltitudeNegative at t = 205503 ms
+t = 205870 ms, altitude = -2.02, az = 0.01, temperature = 17.74, battery = 12.2314, state = Landed
+[Error] AltitudeNegative at t = 205870 ms
+t = 206238 ms, altitude = -2, az = -0.01, temperature = 17.74, battery = 12.2313, state = Landed
+[Error] AltitudeNegative at t = 206238 ms
+t = 206604 ms, altitude = -2.01, az = -0.01, temperature = 17.74, battery = 12.2311, state = Landed
+[Error] AltitudeNegative at t = 206604 ms
+t = 206974 ms, altitude = -1.99, az = 0.02, temperature = 17.74, battery = 12.231, state = Landed
+[Error] AltitudeNegative at t = 206974 ms
+t = 207341 ms, altitude = -2.01, az = 0.02, temperature = 17.75, battery = 12.2309, state = Landed
+[Error] AltitudeNegative at t = 207341 ms
+t = 207708 ms, altitude = -2.02, az = -0.01, temperature = 17.75, battery = 12.2308, state = Landed
+[Error] AltitudeNegative at t = 207708 ms
+t = 208073 ms, altitude = -2.05, az = -0.02, temperature = 17.75, battery = 12.2306, state = Landed
+[Error] AltitudeNegative at t = 208073 ms
+t = 208440 ms, altitude = -2.01, az = 0.01, temperature = 17.76, battery = 12.2305, state = Landed
+[Error] AltitudeNegative at t = 208440 ms
+t = 208809 ms, altitude = -2.01, az = -0.01, temperature = 17.77, battery = 12.2304, state = Landed
+[Error] AltitudeNegative at t = 208809 ms
+t = 209176 ms, altitude = -2.02, az = -0.01, temperature = 17.77, battery = 12.2303, state = Landed
+[Error] AltitudeNegative at t = 209176 ms
+t = 209542 ms, altitude = -2.02, az = 0, temperature = 17.77, battery = 12.2302, state = Landed
+[Error] AltitudeNegative at t = 209542 ms
+t = 209909 ms, altitude = -2.01, az = 0.01, temperature = 17.77, battery = 12.23, state = Landed
+[Error] AltitudeNegative at t = 209909 ms
+t = 210276 ms, altitude = -1.97, az = -0, temperature = 17.77, battery = 12.2299, state = Landed
+[Error] AltitudeNegative at t = 210276 ms
+t = 210646 ms, altitude = -1.99, az = -0.01, temperature = 17.76, battery = 12.2298, state = Landed
+[Error] AltitudeNegative at t = 210646 ms
+t = 211012 ms, altitude = -1.98, az = -0, temperature = 17.78, battery = 12.2297, state = Landed
+[Error] AltitudeNegative at t = 211012 ms
+t = 211379 ms, altitude = -1.99, az = -0, temperature = 17.78, battery = 12.2295, state = Landed
+[Error] AltitudeNegative at t = 211379 ms
+t = 211744 ms, altitude = -1.97, az = -0, temperature = 17.78, battery = 12.2294, state = Landed
+[Error] AltitudeNegative at t = 211744 ms
+t = 212112 ms, altitude = -1.98, az = -0.01, temperature = 17.78, battery = 12.2293, state = Landed
+[Error] AltitudeNegative at t = 212112 ms
+t = 212477 ms, altitude = -1.98, az = 0.03, temperature = 17.77, battery = 12.2292, state = Landed
+[Error] AltitudeNegative at t = 212477 ms
+t = 212848 ms, altitude = -2, az = 0.01, temperature = 17.78, battery = 12.2291, state = Landed
+[Error] AltitudeNegative at t = 212848 ms
+t = 213215 ms, altitude = -2.02, az = 0.03, temperature = 17.79, battery = 12.2289, state = Landed
+[Error] AltitudeNegative at t = 213215 ms
+t = 213581 ms, altitude = -2.03, az = 0.02, temperature = 17.79, battery = 12.2288, state = Landed
+[Error] AltitudeNegative at t = 213581 ms
+t = 213948 ms, altitude = -2.04, az = 0.03, temperature = 17.79, battery = 12.2287, state = Landed
+[Error] AltitudeNegative at t = 213948 ms
+t = 214313 ms, altitude = -2.05, az = 0.09, temperature = 17.79, battery = 12.2286, state = Landed
+[Error] AltitudeNegative at t = 214313 ms
+t = 214684 ms, altitude = -2.04, az = 0.4, temperature = 17.79, battery = 12.2284, state = Landed
+[Error] AltitudeNegative at t = 214684 ms
+t = 215052 ms, altitude = -2.03, az = 0.35, temperature = 17.8, battery = 12.2283, state = Landed
+[Error] AltitudeNegative at t = 215052 ms
+t = 215418 ms, altitude = -1.98, az = 0.6, temperature = 17.8, battery = 12.2282, state = Landed
+[Error] AltitudeNegative at t = 215418 ms
+t = 215786 ms, altitude = -1.98, az = 1.11, temperature = 17.81, battery = 12.2281, state = Landed
+[Error] AltitudeNegative at t = 215786 ms
+t = 216153 ms, altitude = -1.91, az = 1.01, temperature = 17.8, battery = 12.2279, state = Landed
+[Error] AltitudeNegative at t = 216153 ms
+t = 216523 ms, altitude = -1.79, az = 0.76, temperature = 17.79, battery = 12.2278, state = Landed
+[Error] AltitudeNegative at t = 216523 ms
+t = 216889 ms, altitude = -1.65, az = 0.95, temperature = 17.76, battery = 12.2277, state = Landed
+[Error] AltitudeNegative at t = 216889 ms
+t = 217255 ms, altitude = -1.5, az = 0.79, temperature = 17.75, battery = 12.2276, state = Landed
+[Error] AltitudeNegative at t = 217255 ms
+t = 217622 ms, altitude = -1.42, az = 1.41, temperature = 17.75, battery = 12.2275, state = Landed
+[Error] AltitudeNegative at t = 217622 ms
+t = 217989 ms, altitude = -1.37, az = 1.16, temperature = 17.75, battery = 12.2273, state = Landed
+[Error] AltitudeNegative at t = 217989 ms
+t = 218370 ms, altitude = -1.28, az = 0.62, temperature = 17.76, battery = 12.2272, state = Landed
+[Error] AltitudeNegative at t = 218370 ms
+t = 218735 ms, altitude = -1.2, az = 1.04, temperature = 17.77, battery = 12.2271, state = Landed
+[Error] AltitudeNegative at t = 218735 ms
+t = 219101 ms, altitude = -1.16, az = 1.02, temperature = 17.78, battery = 12.227, state = Landed
+[Error] AltitudeNegative at t = 219101 ms
+t = 219467 ms, altitude = -1.08, az = 1.43, temperature = 17.79, battery = 12.2268, state = Landed
+[Error] AltitudeNegative at t = 219467 ms
+t = 219834 ms, altitude = -0.95, az = 0.82, temperature = 17.8, battery = 12.2267, state = Landed
+[Error] AltitudeNegative at t = 219834 ms
+t = 220205 ms, altitude = -0.81, az = 0.86, temperature = 17.8, battery = 12.2266, state = Landed
+[Error] AltitudeNegative at t = 220205 ms
+t = 220571 ms, altitude = -0.71, az = 0.84, temperature = 17.8, battery = 12.2265, state = Landed
+[Error] AltitudeNegative at t = 220571 ms
+t = 220938 ms, altitude = -0.67, az = 0.97, temperature = 17.75, battery = 12.2264, state = Landed
+[Error] AltitudeNegative at t = 220938 ms
+t = 221304 ms, altitude = -0.62, az = 0.91, temperature = 17.71, battery = 12.2262, state = Landed
+[Error] AltitudeNegative at t = 221304 ms
+t = 221671 ms, altitude = -0.66, az = 0.93, temperature = 17.69, battery = 12.2261, state = Landed
+[Error] AltitudeNegative at t = 221671 ms
+t = 222041 ms, altitude = -0.69, az = 0.96, temperature = 17.7, battery = 12.226, state = Landed
+[Error] AltitudeNegative at t = 222041 ms
+t = 222407 ms, altitude = -0.72, az = 1.16, temperature = 17.72, battery = 12.2259, state = Landed
+[Error] AltitudeNegative at t = 222407 ms
+t = 222774 ms, altitude = -0.75, az = 0.69, temperature = 17.73, battery = 12.2257, state = Landed
+[Error] AltitudeNegative at t = 222774 ms
+t = 223139 ms, altitude = -0.77, az = 0.75, temperature = 17.73, battery = 12.2256, state = Landed
+[Error] AltitudeNegative at t = 223139 ms
+t = 223506 ms, altitude = -0.76, az = 0.54, temperature = 17.72, battery = 12.2255, state = Landed
+[Error] AltitudeNegative at t = 223506 ms
+t = 223875 ms, altitude = -0.74, az = 0.62, temperature = 17.73, battery = 12.2254, state = Landed
+[Error] AltitudeNegative at t = 223875 ms
+t = 224244 ms, altitude = -0.75, az = 1.15, temperature = 17.75, battery = 12.2253, state = Landed
+[Error] AltitudeNegative at t = 224244 ms
+t = 224611 ms, altitude = -0.76, az = 0.86, temperature = 17.74, battery = 12.2251, state = Landed
+[Error] AltitudeNegative at t = 224611 ms
+t = 224977 ms, altitude = -0.78, az = 0.88, temperature = 17.74, battery = 12.225, state = Landed
+[Error] AltitudeNegative at t = 224977 ms
+t = 225344 ms, altitude = -0.81, az = 1.03, temperature = 17.75, battery = 12.2249, state = Landed
+[Error] AltitudeNegative at t = 225344 ms
+t = 225711 ms, altitude = -0.85, az = 0.88, temperature = 17.75, battery = 12.2248, state = Landed
+[Error] AltitudeNegative at t = 225711 ms
+t = 226081 ms, altitude = -0.87, az = 0.55, temperature = 17.75, battery = 12.2246, state = Landed
+[Error] AltitudeNegative at t = 226081 ms
+t = 226448 ms, altitude = -0.94, az = 1.42, temperature = 17.75, battery = 12.2245, state = Landed
+[Error] AltitudeNegative at t = 226448 ms
+t = 226814 ms, altitude = -1.05, az = 1.03, temperature = 17.76, battery = 12.2244, state = Landed
+[Error] AltitudeNegative at t = 226814 ms
+t = 227180 ms, altitude = -1.14, az = 0.98, temperature = 17.77, battery = 12.2243, state = Landed
+[Error] AltitudeNegative at t = 227180 ms
+t = 227546 ms, altitude = -1.21, az = 0.99, temperature = 17.78, battery = 12.2242, state = Landed
+[Error] AltitudeNegative at t = 227546 ms
+t = 227915 ms, altitude = -1.26, az = 1.02, temperature = 17.78, battery = 12.224, state = Landed
+[Error] AltitudeNegative at t = 227915 ms
+t = 228282 ms, altitude = -1.31, az = 0.91, temperature = 17.78, battery = 12.2239, state = Landed
+[Error] AltitudeNegative at t = 228282 ms
+t = 228648 ms, altitude = -1.36, az = 1.02, temperature = 17.78, battery = 12.2238, state = Landed
+[Error] AltitudeNegative at t = 228648 ms
+t = 229015 ms, altitude = -1.39, az = 1.07, temperature = 17.78, battery = 12.2237, state = Landed
+[Error] AltitudeNegative at t = 229015 ms
+t = 229382 ms, altitude = -1.44, az = 1.22, temperature = 17.77, battery = 12.2235, state = Landed
+[Error] AltitudeNegative at t = 229382 ms
+t = 229752 ms, altitude = -1.48, az = 1.02, temperature = 17.78, battery = 12.2234, state = Landed
+[Error] AltitudeNegative at t = 229752 ms
+t = 230119 ms, altitude = -1.47, az = 1.02, temperature = 17.78, battery = 12.2233, state = Landed
+[Error] AltitudeNegative at t = 230119 ms
+t = 230484 ms, altitude = -1.43, az = 0.94, temperature = 17.79, battery = 12.2232, state = Landed
+[Error] AltitudeNegative at t = 230484 ms
+t = 230851 ms, altitude = -1.42, az = 1, temperature = 17.79, battery = 12.223, state = Landed
+[Error] AltitudeNegative at t = 230851 ms
+t = 231218 ms, altitude = -1.39, az = 1.03, temperature = 17.8, battery = 12.2229, state = Landed
+[Error] AltitudeNegative at t = 231218 ms
+t = 231586 ms, altitude = -1.37, az = 0.99, temperature = 17.8, battery = 12.2228, state = Landed
+[Error] AltitudeNegative at t = 231586 ms
+t = 231953 ms, altitude = -1.35, az = 0.95, temperature = 17.81, battery = 12.2227, state = Landed
+[Error] AltitudeNegative at t = 231953 ms
+t = 232321 ms, altitude = -1.31, az = 1.12, temperature = 17.8, battery = 12.2226, state = Landed
+[Error] AltitudeNegative at t = 232321 ms
+t = 232687 ms, altitude = -1.3, az = 0.99, temperature = 17.8, battery = 12.2224, state = Landed
+[Error] AltitudeNegative at t = 232687 ms
+t = 233054 ms, altitude = -1.3, az = 1.07, temperature = 17.8, battery = 12.2223, state = Landed
+[Error] AltitudeNegative at t = 233054 ms
+t = 233420 ms, altitude = -1.3, az = 1.03, temperature = 17.8, battery = 12.2222, state = Landed
+[Error] AltitudeNegative at t = 233420 ms
+t = 233803 ms, altitude = -1.26, az = 1, temperature = 17.81, battery = 12.2221, state = Landed
+[Error] AltitudeNegative at t = 233803 ms
+t = 234169 ms, altitude = -1.24, az = 1, temperature = 17.81, battery = 12.2219, state = Landed
+[Error] AltitudeNegative at t = 234169 ms
+t = 234534 ms, altitude = -1.21, az = 1.04, temperature = 17.81, battery = 12.2218, state = Landed
+[Error] AltitudeNegative at t = 234534 ms
+t = 234901 ms, altitude = -1.17, az = 1.05, temperature = 17.81, battery = 12.2217, state = Landed
+[Error] AltitudeNegative at t = 234901 ms
+t = 235267 ms, altitude = -1.13, az = 1.02, temperature = 17.82, battery = 12.2216, state = Landed
+[Error] AltitudeNegative at t = 235267 ms
+t = 235635 ms, altitude = -1.09, az = 0.94, temperature = 17.82, battery = 12.2215, state = Landed
+[Error] AltitudeNegative at t = 235635 ms
+t = 236001 ms, altitude = -1.06, az = 1.01, temperature = 17.82, battery = 12.2213, state = Landed
+[Error] AltitudeNegative at t = 236001 ms
+t = 236365 ms, altitude = -1.04, az = 1.01, temperature = 17.83, battery = 12.2212, state = Landed
+[Error] AltitudeNegative at t = 236365 ms
+t = 236732 ms, altitude = -1.04, az = 1.03, temperature = 17.82, battery = 12.2211, state = Landed
+[Error] AltitudeNegative at t = 236732 ms
+t = 237097 ms, altitude = -1.06, az = 1.03, temperature = 17.82, battery = 12.221, state = Landed
+[Error] AltitudeNegative at t = 237097 ms
+t = 237467 ms, altitude = -1.07, az = 1.03, temperature = 17.83, battery = 12.2208, state = Landed
+[Error] AltitudeNegative at t = 237467 ms
+t = 237833 ms, altitude = -1.05, az = 1, temperature = 17.83, battery = 12.2207, state = Landed
+[Error] AltitudeNegative at t = 237833 ms
+t = 238198 ms, altitude = -1, az = 1.02, temperature = 17.83, battery = 12.2206, state = Landed
+[Error] AltitudeNegative at t = 238198 ms
+t = 238564 ms, altitude = -1.05, az = 1.05, temperature = 17.84, battery = 12.2205, state = Landed
+[Error] AltitudeNegative at t = 238564 ms
+t = 238929 ms, altitude = -1.08, az = 1.09, temperature = 17.84, battery = 12.2204, state = Landed
+[Error] AltitudeNegative at t = 238929 ms
+t = 239295 ms, altitude = -1.1, az = 1.03, temperature = 17.84, battery = 12.2202, state = Landed
+[Error] AltitudeNegative at t = 239295 ms
+t = 239664 ms, altitude = -1.12, az = 1.1, temperature = 17.84, battery = 12.2201, state = Landed
+[Error] AltitudeNegative at t = 239664 ms
+t = 240030 ms, altitude = -1.07, az = 0.84, temperature = 17.85, battery = 12.22, state = Landed
+[Error] AltitudeNegative at t = 240030 ms
+t = 240395 ms, altitude = -1.04, az = 1.05, temperature = 17.85, battery = 12.2199, state = Landed
+[Error] AltitudeNegative at t = 240395 ms
+t = 240760 ms, altitude = -1.02, az = 0.97, temperature = 17.85, battery = 12.2197, state = Landed
+[Error] AltitudeNegative at t = 240760 ms
+t = 241126 ms, altitude = -0.99, az = 1.05, temperature = 17.85, battery = 12.2196, state = Landed
+[Error] AltitudeNegative at t = 241126 ms
+t = 241497 ms, altitude = -0.94, az = 0.96, temperature = 17.83, battery = 12.2195, state = Landed
+[Error] AltitudeNegative at t = 241497 ms
+t = 241862 ms, altitude = -0.92, az = 1.02, temperature = 17.83, battery = 12.2194, state = Landed
+[Error] AltitudeNegative at t = 241862 ms
+t = 242228 ms, altitude = -0.87, az = 1.02, temperature = 17.84, battery = 12.2193, state = Landed
+[Error] AltitudeNegative at t = 242228 ms
+t = 242594 ms, altitude = -0.81, az = 0.9, temperature = 17.84, battery = 12.2191, state = Landed
+[Error] AltitudeNegative at t = 242594 ms
+t = 242960 ms, altitude = -0.72, az = 0.96, temperature = 17.83, battery = 12.219, state = Landed
+[Error] AltitudeNegative at t = 242960 ms
+t = 243329 ms, altitude = -0.7, az = 1.04, temperature = 17.83, battery = 12.2189, state = Landed
+[Error] AltitudeNegative at t = 243329 ms
+t = 243695 ms, altitude = -0.7, az = 1, temperature = 17.82, battery = 12.2188, state = Landed
+[Error] AltitudeNegative at t = 243695 ms
+t = 244061 ms, altitude = -0.68, az = 1, temperature = 17.81, battery = 12.2186, state = Landed
+[Error] AltitudeNegative at t = 244061 ms
+t = 244425 ms, altitude = -0.68, az = 1.02, temperature = 17.82, battery = 12.2185, state = Landed
+[Error] AltitudeNegative at t = 244425 ms
+t = 244792 ms, altitude = -0.66, az = 1.06, temperature = 17.83, battery = 12.2184, state = Landed
+[Error] AltitudeNegative at t = 244792 ms
+t = 245160 ms, altitude = -0.67, az = 0.98, temperature = 17.82, battery = 12.2183, state = Landed
+[Error] AltitudeNegative at t = 245160 ms
+t = 245525 ms, altitude = -0.66, az = 0.97, temperature = 17.82, battery = 12.2182, state = Landed
+[Error] AltitudeNegative at t = 245525 ms
+t = 245891 ms, altitude = -0.63, az = 1.01, temperature = 17.82, battery = 12.218, state = Landed
+[Error] AltitudeNegative at t = 245891 ms
+t = 246256 ms, altitude = -0.61, az = 0.99, temperature = 17.83, battery = 12.2179, state = Landed
+[Error] AltitudeNegative at t = 246256 ms
+t = 246621 ms, altitude = -0.6, az = 1.01, temperature = 17.82, battery = 12.2178, state = Landed
+[Error] AltitudeNegative at t = 246621 ms
+t = 246986 ms, altitude = -0.6, az = 0.91, temperature = 17.82, battery = 12.2177, state = Landed
+[Error] AltitudeNegative at t = 246986 ms
+t = 247355 ms, altitude = -0.61, az = 0.97, temperature = 17.83, battery = 12.2175, state = Landed
+[Error] AltitudeNegative at t = 247355 ms
+t = 247721 ms, altitude = -0.6, az = 1.03, temperature = 17.82, battery = 12.2174, state = Landed
+[Error] AltitudeNegative at t = 247721 ms
+t = 248087 ms, altitude = -0.6, az = 1.01, temperature = 17.82, battery = 12.2173, state = Landed
+[Error] AltitudeNegative at t = 248087 ms
+t = 248452 ms, altitude = -0.58, az = 1, temperature = 17.82, battery = 12.2172, state = Landed
+[Error] AltitudeNegative at t = 248452 ms
+t = 248818 ms, altitude = -0.54, az = 0.94, temperature = 17.81, battery = 12.2171, state = Landed
+[Error] AltitudeNegative at t = 248818 ms
+t = 249197 ms, altitude = -0.57, az = 0.7, temperature = 17.82, battery = 12.2169, state = Landed
+[Error] AltitudeNegative at t = 249197 ms
+t = 249562 ms, altitude = -0.6, az = 0.86, temperature = 17.81, battery = 12.2168, state = Landed
+[Error] AltitudeNegative at t = 249562 ms
+t = 249928 ms, altitude = -0.62, az = 0.94, temperature = 17.82, battery = 12.2167, state = Landed
+[Error] AltitudeNegative at t = 249928 ms
+t = 250296 ms, altitude = -0.66, az = 0.99, temperature = 17.82, battery = 12.2166, state = Landed
+[Error] AltitudeNegative at t = 250296 ms
+t = 250660 ms, altitude = -0.69, az = 0.92, temperature = 17.83, battery = 12.2164, state = Landed
+[Error] AltitudeNegative at t = 250660 ms
+t = 251030 ms, altitude = -0.69, az = 0.9, temperature = 17.83, battery = 12.2163, state = Landed
+[Error] AltitudeNegative at t = 251030 ms
+t = 251396 ms, altitude = -0.71, az = 0.87, temperature = 17.83, battery = 12.2162, state = Landed
+[Error] AltitudeNegative at t = 251396 ms
+t = 251762 ms, altitude = -0.72, az = 1.02, temperature = 17.83, battery = 12.2161, state = Landed
+[Error] AltitudeNegative at t = 251762 ms
+t = 252128 ms, altitude = -0.75, az = 0.91, temperature = 17.82, battery = 12.216, state = Landed
+[Error] AltitudeNegative at t = 252128 ms
+t = 252494 ms, altitude = -0.76, az = 0.86, temperature = 17.83, battery = 12.2158, state = Landed
+[Error] AltitudeNegative at t = 252494 ms
+t = 252863 ms, altitude = -0.77, az = 0.8, temperature = 17.84, battery = 12.2157, state = Landed
+[Error] AltitudeNegative at t = 252863 ms
+t = 253229 ms, altitude = -0.76, az = 0.85, temperature = 17.84, battery = 12.2156, state = Landed
+[Error] AltitudeNegative at t = 253229 ms
+t = 253594 ms, altitude = -0.76, az = 0.95, temperature = 17.84, battery = 12.2155, state = Landed
+[Error] AltitudeNegative at t = 253594 ms
+t = 253960 ms, altitude = -0.78, az = 0.94, temperature = 17.84, battery = 12.2153, state = Landed
+[Error] AltitudeNegative at t = 253960 ms
+t = 254325 ms, altitude = -0.76, az = 0.93, temperature = 17.84, battery = 12.2152, state = Landed
+[Error] AltitudeNegative at t = 254325 ms
+t = 254694 ms, altitude = -0.81, az = 0.97, temperature = 17.84, battery = 12.2151, state = Landed
+[Error] AltitudeNegative at t = 254694 ms
+t = 255059 ms, altitude = -0.82, az = 0.97, temperature = 17.84, battery = 12.215, state = Landed
+[Error] AltitudeNegative at t = 255059 ms
+t = 255425 ms, altitude = -0.86, az = 0.96, temperature = 17.85, battery = 12.2149, state = Landed
+[Error] AltitudeNegative at t = 255425 ms
+t = 255791 ms, altitude = -0.87, az = 0.96, temperature = 17.84, battery = 12.2147, state = Landed
+[Error] AltitudeNegative at t = 255791 ms
+t = 256156 ms, altitude = -0.88, az = 1.1, temperature = 17.85, battery = 12.2146, state = Landed
+[Error] AltitudeNegative at t = 256156 ms
+t = 256525 ms, altitude = -0.87, az = 1.08, temperature = 17.84, battery = 12.2145, state = Landed
+[Error] AltitudeNegative at t = 256525 ms
+t = 256891 ms, altitude = -0.91, az = 1.06, temperature = 17.83, battery = 12.2144, state = Landed
+[Error] AltitudeNegative at t = 256891 ms
+t = 257256 ms, altitude = -0.94, az = 1.07, temperature = 17.83, battery = 12.2142, state = Landed
+[Error] AltitudeNegative at t = 257256 ms
+t = 257622 ms, altitude = -0.94, az = 1.07, temperature = 17.84, battery = 12.2141, state = Landed
+[Error] AltitudeNegative at t = 257622 ms
+t = 257987 ms, altitude = -0.93, az = 1.13, temperature = 17.84, battery = 12.214, state = Landed
+[Error] AltitudeNegative at t = 257987 ms
+t = 258352 ms, altitude = -0.93, az = 1, temperature = 17.84, battery = 12.2139, state = Landed
+[Error] AltitudeNegative at t = 258352 ms
+t = 258721 ms, altitude = -0.9, az = 1.03, temperature = 17.84, battery = 12.2138, state = Landed
+[Error] AltitudeNegative at t = 258721 ms
+t = 259087 ms, altitude = -0.87, az = 1.01, temperature = 17.84, battery = 12.2136, state = Landed
+[Error] AltitudeNegative at t = 259087 ms
+t = 259453 ms, altitude = -0.84, az = 1.03, temperature = 17.83, battery = 12.2135, state = Landed
+[Error] AltitudeNegative at t = 259453 ms
+t = 259819 ms, altitude = -0.82, az = 1.19, temperature = 17.82, battery = 12.2134, state = Landed
+[Error] AltitudeNegative at t = 259819 ms
+t = 260185 ms, altitude = -0.84, az = 0.97, temperature = 17.82, battery = 12.2133, state = Landed
+[Error] AltitudeNegative at t = 260185 ms
+t = 260554 ms, altitude = -0.83, az = 1, temperature = 17.82, battery = 12.2131, state = Landed
+[Error] AltitudeNegative at t = 260554 ms
+t = 260920 ms, altitude = -0.84, az = 1.12, temperature = 17.83, battery = 12.213, state = Landed
+[Error] AltitudeNegative at t = 260920 ms
+t = 261285 ms, altitude = -0.87, az = 1.05, temperature = 17.83, battery = 12.2129, state = Landed
+[Error] AltitudeNegative at t = 261285 ms
+t = 261650 ms, altitude = -0.89, az = 1.07, temperature = 17.84, battery = 12.2128, state = Landed
+[Error] AltitudeNegative at t = 261650 ms
+t = 262016 ms, altitude = -0.9, az = 1.06, temperature = 17.84, battery = 12.2127, state = Landed
+[Error] AltitudeNegative at t = 262016 ms
+t = 262383 ms, altitude = -0.91, az = 0.86, temperature = 17.83, battery = 12.2125, state = Landed
+[Error] AltitudeNegative at t = 262383 ms
+t = 262749 ms, altitude = -0.89, az = 0.88, temperature = 17.82, battery = 12.2124, state = Landed
+[Error] AltitudeNegative at t = 262749 ms
+t = 263114 ms, altitude = -0.84, az = 0.8, temperature = 17.82, battery = 12.2123, state = Landed
+[Error] AltitudeNegative at t = 263114 ms
+t = 263480 ms, altitude = -0.79, az = 0.99, temperature = 17.81, battery = 12.2122, state = Landed
+[Error] AltitudeNegative at t = 263480 ms
+t = 263845 ms, altitude = -0.76, az = 0.96, temperature = 17.81, battery = 12.2121, state = Landed
+[Error] AltitudeNegative at t = 263845 ms
+t = 264227 ms, altitude = -0.74, az = 1.06, temperature = 17.8, battery = 12.2119, state = Landed
+[Error] AltitudeNegative at t = 264227 ms
+t = 264593 ms, altitude = -0.74, az = 1.04, temperature = 17.8, battery = 12.2118, state = Landed
+[Error] AltitudeNegative at t = 264593 ms
+t = 264960 ms, altitude = -0.73, az = 0.99, temperature = 17.8, battery = 12.2117, state = Landed
+[Error] AltitudeNegative at t = 264960 ms
+t = 265326 ms, altitude = -0.73, az = 1.03, temperature = 17.8, battery = 12.2116, state = Landed
+[Error] AltitudeNegative at t = 265326 ms
+t = 265693 ms, altitude = -0.76, az = 1.01, temperature = 17.79, battery = 12.2114, state = Landed
+[Error] AltitudeNegative at t = 265693 ms
+t = 266058 ms, altitude = -0.79, az = 1, temperature = 17.79, battery = 12.2113, state = Landed
+[Error] AltitudeNegative at t = 266058 ms
+t = 266428 ms, altitude = -0.85, az = 1.03, temperature = 17.78, battery = 12.2112, state = Landed
+[Error] AltitudeNegative at t = 266428 ms
+t = 266796 ms, altitude = -0.87, az = 1.03, temperature = 17.79, battery = 12.2111, state = Landed
+[Error] AltitudeNegative at t = 266796 ms
+t = 267162 ms, altitude = -0.86, az = 1.03, temperature = 17.8, battery = 12.2109, state = Landed
+[Error] AltitudeNegative at t = 267162 ms
+t = 267528 ms, altitude = -0.86, az = 1.03, temperature = 17.8, battery = 12.2108, state = Landed
+[Error] AltitudeNegative at t = 267528 ms
+t = 267897 ms, altitude = -0.89, az = 1.08, temperature = 17.81, battery = 12.2107, state = Landed
+[Error] AltitudeNegative at t = 267897 ms
+t = 268267 ms, altitude = -0.9, az = 1.08, temperature = 17.8, battery = 12.2106, state = Landed
+[Error] AltitudeNegative at t = 268267 ms
+t = 268634 ms, altitude = -0.95, az = 1.03, temperature = 17.8, battery = 12.2105, state = Landed
+[Error] AltitudeNegative at t = 268634 ms
+t = 269000 ms, altitude = -0.98, az = 1.02, temperature = 17.81, battery = 12.2103, state = Landed
+[Error] AltitudeNegative at t = 269000 ms
+t = 269367 ms, altitude = -0.99, az = 1.01, temperature = 17.81, battery = 12.2102, state = Landed
+[Error] AltitudeNegative at t = 269367 ms
+t = 269733 ms, altitude = -0.99, az = 1.03, temperature = 17.79, battery = 12.2101, state = Landed
+[Error] AltitudeNegative at t = 269733 ms
+t = 270103 ms, altitude = -1, az = 1.04, temperature = 17.79, battery = 12.21, state = Landed
+[Error] AltitudeNegative at t = 270103 ms
+t = 270471 ms, altitude = -1, az = 1, temperature = 17.78, battery = 12.2098, state = Landed
+[Error] AltitudeNegative at t = 270471 ms
+t = 270837 ms, altitude = -1, az = 1.06, temperature = 17.78, battery = 12.2097, state = Landed
+[Error] AltitudeNegative at t = 270837 ms
+t = 271203 ms, altitude = -1.02, az = 1.04, temperature = 17.78, battery = 12.2096, state = Landed
+[Error] AltitudeNegative at t = 271203 ms
+t = 271567 ms, altitude = -1.05, az = 1.02, temperature = 17.78, battery = 12.2095, state = Landed
+[Error] AltitudeNegative at t = 271567 ms
+t = 271938 ms, altitude = -1.08, az = 1.03, temperature = 17.77, battery = 12.2094, state = Landed
+[Error] AltitudeNegative at t = 271938 ms
+t = 272305 ms, altitude = -1.1, az = 1.01, temperature = 17.76, battery = 12.2092, state = Landed
+[Error] AltitudeNegative at t = 272305 ms
+t = 272670 ms, altitude = -1.12, az = 1.04, temperature = 17.78, battery = 12.2091, state = Landed
+[Error] AltitudeNegative at t = 272670 ms
+t = 273037 ms, altitude = -1.14, az = 1.01, temperature = 17.78, battery = 12.209, state = Landed
+[Error] AltitudeNegative at t = 273037 ms
+t = 273402 ms, altitude = -1.14, az = 0.97, temperature = 17.78, battery = 12.2089, state = Landed
+[Error] AltitudeNegative at t = 273402 ms
+t = 273773 ms, altitude = -1.15, az = 1.07, temperature = 17.77, battery = 12.2087, state = Landed
+[Error] AltitudeNegative at t = 273773 ms
+t = 274140 ms, altitude = -1.19, az = 0.95, temperature = 17.78, battery = 12.2086, state = Landed
+[Error] AltitudeNegative at t = 274140 ms
+t = 274505 ms, altitude = -1.17, az = 1.06, temperature = 17.78, battery = 12.2085, state = Landed
+[Error] AltitudeNegative at t = 274505 ms
+t = 274872 ms, altitude = -1.14, az = 1.1, temperature = 17.78, battery = 12.2084, state = Landed
+[Error] AltitudeNegative at t = 274872 ms
+t = 275238 ms, altitude = -1.1, az = 0.92, temperature = 17.77, battery = 12.2083, state = Landed
+[Error] AltitudeNegative at t = 275238 ms
+t = 275605 ms, altitude = -1.13, az = 1.16, temperature = 17.77, battery = 12.2081, state = Landed
+[Error] AltitudeNegative at t = 275605 ms
+t = 275975 ms, altitude = -1.14, az = 1.04, temperature = 17.78, battery = 12.208, state = Landed
+[Error] AltitudeNegative at t = 275975 ms
+t = 276340 ms, altitude = -1.13, az = 0.99, temperature = 17.78, battery = 12.2079, state = Landed
+[Error] AltitudeNegative at t = 276340 ms
+t = 276709 ms, altitude = -1.16, az = 0.92, temperature = 17.78, battery = 12.2078, state = Landed
+[Error] AltitudeNegative at t = 276709 ms
+t = 277074 ms, altitude = -1.12, az = 1.13, temperature = 17.77, battery = 12.2076, state = Landed
+[Error] AltitudeNegative at t = 277074 ms
+t = 277441 ms, altitude = -1.08, az = 0.95, temperature = 17.77, battery = 12.2075, state = Landed
+[Error] AltitudeNegative at t = 277441 ms
+t = 277812 ms, altitude = -1.03, az = 1.1, temperature = 17.75, battery = 12.2074, state = Landed
+[Error] AltitudeNegative at t = 277812 ms
+t = 278178 ms, altitude = -1, az = 1.02, temperature = 17.74, battery = 12.2073, state = Landed
+[Error] AltitudeNegative at t = 278178 ms
+t = 278544 ms, altitude = -0.95, az = 1.04, temperature = 17.76, battery = 12.2072, state = Landed
+[Error] AltitudeNegative at t = 278544 ms
+t = 278913 ms, altitude = -0.94, az = 0.96, temperature = 17.77, battery = 12.207, state = Landed
+[Error] AltitudeNegative at t = 278913 ms
+t = 279278 ms, altitude = -0.91, az = 0.93, temperature = 17.78, battery = 12.2069, state = Landed
+[Error] AltitudeNegative at t = 279278 ms
+t = 279661 ms, altitude = -0.92, az = 1.09, temperature = 17.78, battery = 12.2068, state = Landed
+[Error] AltitudeNegative at t = 279661 ms
+t = 280027 ms, altitude = -0.93, az = 1.06, temperature = 17.78, battery = 12.2067, state = Landed
+[Error] AltitudeNegative at t = 280027 ms
+t = 280393 ms, altitude = -0.96, az = 1.07, temperature = 17.79, battery = 12.2065, state = Landed
+[Error] AltitudeNegative at t = 280393 ms
+t = 280760 ms, altitude = -0.97, az = 1.01, temperature = 17.79, battery = 12.2064, state = Landed
+[Error] AltitudeNegative at t = 280760 ms
+t = 281125 ms, altitude = -0.97, az = 1.02, temperature = 17.78, battery = 12.2063, state = Landed
+[Error] AltitudeNegative at t = 281125 ms
+t = 281495 ms, altitude = -1.01, az = 1.04, temperature = 17.77, battery = 12.2062, state = Landed
+[Error] AltitudeNegative at t = 281495 ms
+t = 281863 ms, altitude = -1.02, az = 1.03, temperature = 17.77, battery = 12.206, state = Landed
+[Error] AltitudeNegative at t = 281863 ms
+t = 282228 ms, altitude = -1.04, az = 1.07, temperature = 17.78, battery = 12.2059, state = Landed
+[Error] AltitudeNegative at t = 282228 ms
+t = 282594 ms, altitude = -1.04, az = 1.11, temperature = 17.78, battery = 12.2058, state = Landed
+[Error] AltitudeNegative at t = 282594 ms
+t = 282961 ms, altitude = -1.05, az = 1.02, temperature = 17.78, battery = 12.2057, state = Landed
+[Error] AltitudeNegative at t = 282961 ms
+t = 283331 ms, altitude = -1.1, az = 1.13, temperature = 17.78, battery = 12.2056, state = Landed
+[Error] AltitudeNegative at t = 283331 ms
+t = 283696 ms, altitude = -1.12, az = 1.07, temperature = 17.78, battery = 12.2054, state = Landed
+[Error] AltitudeNegative at t = 283696 ms
+t = 284062 ms, altitude = -1.14, az = 1.08, temperature = 17.78, battery = 12.2053, state = Landed
+[Error] AltitudeNegative at t = 284062 ms
+t = 284430 ms, altitude = -1.13, az = 1.06, temperature = 17.78, battery = 12.2052, state = Landed
+[Error] AltitudeNegative at t = 284430 ms
+t = 284795 ms, altitude = -1.13, az = 1.09, temperature = 17.78, battery = 12.2051, state = Landed
+[Error] AltitudeNegative at t = 284795 ms
+t = 285162 ms, altitude = -1.11, az = 1.16, temperature = 17.76, battery = 12.2049, state = Landed
+[Error] AltitudeNegative at t = 285162 ms
+t = 285532 ms, altitude = -1.09, az = 0.98, temperature = 17.76, battery = 12.2048, state = Landed
+[Error] AltitudeNegative at t = 285532 ms
+t = 285899 ms, altitude = -1.07, az = 1, temperature = 17.76, battery = 12.2047, state = Landed
+[Error] AltitudeNegative at t = 285899 ms
+t = 286266 ms, altitude = -1.06, az = 0.87, temperature = 17.77, battery = 12.2046, state = Landed
+[Error] AltitudeNegative at t = 286266 ms
+t = 286632 ms, altitude = -1.06, az = 0.72, temperature = 17.78, battery = 12.2045, state = Landed
+[Error] AltitudeNegative at t = 286632 ms
+t = 287000 ms, altitude = -1.11, az = 0.53, temperature = 17.78, battery = 12.2043, state = Landed
+[Error] AltitudeNegative at t = 287000 ms
+t = 287369 ms, altitude = -1.12, az = 0.57, temperature = 17.77, battery = 12.2042, state = Landed
+[Error] AltitudeNegative at t = 287369 ms
+t = 287735 ms, altitude = -1.12, az = 0.52, temperature = 17.77, battery = 12.2041, state = Landed
+[Error] AltitudeNegative at t = 287735 ms
+t = 288102 ms, altitude = -1.06, az = 0.63, temperature = 17.77, battery = 12.204, state = Landed
+[Error] AltitudeNegative at t = 288102 ms
+t = 288467 ms, altitude = -1.07, az = 0.61, temperature = 17.78, battery = 12.2038, state = Landed
+[Error] AltitudeNegative at t = 288467 ms
+t = 288833 ms, altitude = -1.06, az = 0.67, temperature = 17.78, battery = 12.2037, state = Landed
+[Error] AltitudeNegative at t = 288833 ms
+t = 289203 ms, altitude = -1.02, az = 0.65, temperature = 17.78, battery = 12.2036, state = Landed
+[Error] AltitudeNegative at t = 289203 ms
+t = 289568 ms, altitude = -1, az = 0.69, temperature = 17.78, battery = 12.2035, state = Landed
+[Error] AltitudeNegative at t = 289568 ms
+t = 289936 ms, altitude = -1, az = 0.66, temperature = 17.78, battery = 12.2034, state = Landed
+[Error] AltitudeNegative at t = 289936 ms
+t = 290301 ms, altitude = -1, az = 0.64, temperature = 17.78, battery = 12.2032, state = Landed
+[Error] AltitudeNegative at t = 290301 ms
 Flight log finished

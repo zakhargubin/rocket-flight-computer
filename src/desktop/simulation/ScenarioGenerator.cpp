@@ -42,10 +42,10 @@ namespace fc {
             return { 4500, 50.0,  9.0,  22.6, 12.0, true, true, true, true };
 
         case 10:
-            return { 5000, 10.0,  9.0,  22.9, 11.9, true, true, true, true };
+            return { 5000, 10.0, 9.0, 62.0, 10.8, true, true, true, true };
 
         case 11:
-            return { 5500, 0.0,   9.0,  23.0, 11.8, true, true, true, true };
+            return { 5500, 0.0, 9.0, 65.0, 10.3, true, true, true, true };
 
         default:
             return { 6000, 0.0,   9.0,  23.0, 11.8, true, true, true, true };
@@ -56,4 +56,4 @@ namespace fc {
         step_ = 0;
     }
 
-} // namespace fc
+}

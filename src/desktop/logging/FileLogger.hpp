@@ -1,25 +1,23 @@
 #pragma once
 
-#include "core/data/TelemetryFrame.hpp"
-#include "core/flight/FlightState.hpp"
+#include "core/interfaces/Logger.hpp"
 
 #include <fstream>
 #include <string>
 
 namespace fc {
 
-class FileLogger {
+class FileLogger : public Logger {
 private:
     std::ofstream file_;
 public:
     FileLogger() = default;
     ~FileLogger();
 
-    bool open(const std::string& path);
-    void logFrame(const TelemetryFrame& frame, FlightState state);
-    void logMessage(const std::string& message);
-    void close();
+    bool open(const std::string& path) override;
+    void logFrame(const TelemetryFrame& frame, FlightState state) override;
+    void logMessage(const std::string& message) override;
+    void close() override;
 
 };
-
-} // namespace fc
+}

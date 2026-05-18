@@ -10,6 +10,8 @@ option(FC_STRICT_WARNINGS "Enable strict warnings" ON)
 add_library(fc_core
     src/core/flight/FlightStateMachine.cpp
     src/core/services/DataAggregator.cpp
+    src/core/monitoring/SystemEvent.cpp
+    src/core/monitoring/HealthMonitor.cpp
 )
 
 target_include_directories(fc_core PUBLIC src)
@@ -25,7 +27,9 @@ endif()
 add_executable(fc_app
     src/desktop/app/main.cpp
     src/desktop/app/DesktopFlightComputer.cpp
+    src/desktop/app/ReplayController.cpp
     src/desktop/simulation/ScenarioGenerator.cpp
+    src/desktop/simulation/CsvScenarioSource.cpp
     src/desktop/logging/FileLogger.cpp
     src/desktop/sensors/MockIMUSensor.cpp
     src/desktop/sensors/MockBarometerSensor.cpp
